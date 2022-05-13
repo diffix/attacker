@@ -1,0 +1,14 @@
+To kill all rpyc processes:
+    ./exall.sh 'paul/killRpyc.sh'
+
+To start all rpyc processes:
+    ./exall.sh 'paul/startRpyc.sh'
+
+To to git pulls everywhere
+    ./exall.sh 'cd paul/github/attacker; git pull'
+
+To get results directory
+   ./pullDir.sh paul/attackResults .
+
+To see what jobs are still running
+   ./exall.sh 'top -b -n 1 | grep rpyc'
