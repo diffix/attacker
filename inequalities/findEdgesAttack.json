@@ -1,0 +1,2412 @@
+{
+    "bulk": [
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "suppressMin": 2,
+                "suppressMax": 6,
+                "cluster": 1,
+                "base": 2,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 127,
+                        "total": 1006,
+                        "P": 12.62,
+                        "PI": 3.42
+                    },
+                    "visible": {
+                        "correct": 1,
+                        "total": 95,
+                        "P": 1.05,
+                        "PI": 1.05
+                    },
+                    "noPoint": {
+                        "correct": 46463,
+                        "total": 51325,
+                        "P": 90.53,
+                        "PI": 0.65
+                    }
+                },
+                "reality": {
+                    "hidden": 4996,
+                    "visible": 1,
+                    "noPoint": 47429
+                },
+                "totalTries": 52426,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.2928798836155095,
+                        "stdev": 4.394962032787593,
+                        "absAvg": 3.7601256615151066
+                    },
+                    "fromHidden": {
+                        "avg": 0.051194539249146756,
+                        "stdev": 4.063938898250969,
+                        "absAvg": 3.434584755403868
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "suppressMin": 20,
+                "suppressMax": 30,
+                "cluster": 1,
+                "base": 2,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 141,
+                        "total": 1006,
+                        "P": 14.02,
+                        "PI": 4.88
+                    },
+                    "visible": {
+                        "correct": 0,
+                        "total": 90,
+                        "P": 0.0,
+                        "PI": 0.0
+                    },
+                    "noPoint": {
+                        "correct": 46019,
+                        "total": 50861,
+                        "P": 90.48,
+                        "PI": 0.94
+                    }
+                },
+                "reality": {
+                    "hidden": 4993,
+                    "visible": 0,
+                    "noPoint": 46964
+                },
+                "totalTries": 51957,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.28788007835789114,
+                        "stdev": 4.378013346140792,
+                        "absAvg": 3.747977174005621
+                    },
+                    "fromHidden": {
+                        "avg": 0.3352601156069364,
+                        "stdev": 4.11478456842276,
+                        "absAvg": 3.5098265895953755
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "suppressMin": 2,
+                "suppressMax": 6,
+                "cluster": 1,
+                "base": 5,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 101,
+                        "total": 839,
+                        "P": 12.04,
+                        "PI": 2.71
+                    },
+                    "visible": {
+                        "correct": 0,
+                        "total": 210,
+                        "P": 0.0,
+                        "PI": 0.0
+                    },
+                    "noPoint": {
+                        "correct": 46159,
+                        "total": 51036,
+                        "P": 90.44,
+                        "PI": 0.33
+                    }
+                },
+                "reality": {
+                    "hidden": 4996,
+                    "visible": 0,
+                    "noPoint": 47089
+                },
+                "totalTries": 52085,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.2896217800335535,
+                        "stdev": 4.396258936703687,
+                        "absAvg": 3.764615940028457
+                    },
+                    "fromHidden": {
+                        "avg": 0.11517615176151762,
+                        "stdev": 4.223602677269885,
+                        "absAvg": 3.565040650406504
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "suppressMin": 20,
+                "suppressMax": 30,
+                "cluster": 1,
+                "base": 5,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 84,
+                        "total": 885,
+                        "P": 9.49,
+                        "PI": 0.18
+                    },
+                    "visible": {
+                        "correct": 0,
+                        "total": 190,
+                        "P": 0.0,
+                        "PI": 0.0
+                    },
+                    "noPoint": {
+                        "correct": 47534,
+                        "total": 52426,
+                        "P": 90.67,
+                        "PI": -0.01
+                    }
+                },
+                "reality": {
+                    "hidden": 4991,
+                    "visible": 0,
+                    "noPoint": 48510
+                },
+                "totalTries": 53501,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.29179550608122035,
+                        "stdev": 4.422735518910291,
+                        "absAvg": 3.7912801484230054
+                    },
+                    "fromHidden": {
+                        "avg": 0.5081148564294632,
+                        "stdev": 4.173756888798329,
+                        "absAvg": 3.519350811485643
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "suppressMin": 2,
+                "suppressMax": 6,
+                "cluster": 1,
+                "base": 10,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 113,
+                        "total": 756,
+                        "P": 14.95,
+                        "PI": 5.85
+                    },
+                    "visible": {
+                        "correct": 0,
+                        "total": 245,
+                        "P": 0.0,
+                        "PI": 0.0
+                    },
+                    "noPoint": {
+                        "correct": 45824,
+                        "total": 50685,
+                        "P": 90.41,
+                        "PI": 0.81
+                    }
+                },
+                "reality": {
+                    "hidden": 4997,
+                    "visible": 0,
+                    "noPoint": 46689
+                },
+                "totalTries": 51686,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.27974469361091475,
+                        "stdev": 4.360798340811505,
+                        "absAvg": 3.728651288312022
+                    },
+                    "fromHidden": {
+                        "avg": 0.16796267496111975,
+                        "stdev": 4.25105081953342,
+                        "absAvg": 3.5863141524105755
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "suppressMin": 20,
+                "suppressMax": 30,
+                "cluster": 1,
+                "base": 10,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 104,
+                        "total": 795,
+                        "P": 13.08,
+                        "PI": 3.81
+                    },
+                    "visible": {
+                        "correct": 0,
+                        "total": 229,
+                        "P": 0.0,
+                        "PI": 0.0
+                    },
+                    "noPoint": {
+                        "correct": 45964,
+                        "total": 50832,
+                        "P": 90.42,
+                        "PI": 0.6
+                    }
+                },
+                "reality": {
+                    "hidden": 4998,
+                    "visible": 0,
+                    "noPoint": 46858
+                },
+                "totalTries": 51856,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.29288488625208076,
+                        "stdev": 4.361741288952366,
+                        "absAvg": 3.734901190831875
+                    },
+                    "fromHidden": {
+                        "avg": 0.4703328509406657,
+                        "stdev": 4.121372682444577,
+                        "absAvg": 3.5180897250361793
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 20,
+                "groupMax": 30,
+                "suppressMin": 2,
+                "suppressMax": 6,
+                "cluster": 1,
+                "base": 2,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 9,
+                        "total": 97,
+                        "P": 9.28,
+                        "PI": -0.36
+                    },
+                    "visible": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    },
+                    "noPoint": {
+                        "correct": 46891,
+                        "total": 51874,
+                        "P": 90.39,
+                        "PI": -0.05
+                    }
+                },
+                "reality": {
+                    "hidden": 4990,
+                    "visible": 2,
+                    "noPoint": 46979
+                },
+                "totalTries": 51971,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.2837012282083484,
+                        "stdev": 4.393601518323003,
+                        "absAvg": 3.7596372847442474
+                    },
+                    "fromHidden": {
+                        "avg": 0.8636363636363636,
+                        "stdev": 4.821364852265641,
+                        "absAvg": 4.204545454545454
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 20,
+                "groupMax": 30,
+                "suppressMin": 20,
+                "suppressMax": 30,
+                "cluster": 1,
+                "base": 2,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 6,
+                        "total": 88,
+                        "P": 6.82,
+                        "PI": -2.92
+                    },
+                    "visible": {
+                        "correct": 0,
+                        "total": 3,
+                        "P": 0.0,
+                        "PI": 0.0
+                    },
+                    "noPoint": {
+                        "correct": 47724,
+                        "total": 52715,
+                        "P": 90.53,
+                        "PI": -0.07
+                    }
+                },
+                "reality": {
+                    "hidden": 4997,
+                    "visible": 0,
+                    "noPoint": 47809
+                },
+                "totalTries": 52806,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.2927273107573888,
+                        "stdev": 4.404602663724822,
+                        "absAvg": 3.7728252002760985
+                    },
+                    "fromHidden": {
+                        "avg": -0.43902439024390244,
+                        "stdev": 4.115905795559016,
+                        "absAvg": 3.4390243902439024
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 20,
+                "groupMax": 30,
+                "suppressMin": 2,
+                "suppressMax": 6,
+                "cluster": 1,
+                "base": 5,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 11,
+                        "total": 93,
+                        "P": 11.83,
+                        "PI": 2.6
+                    },
+                    "visible": {
+                        "correct": 0,
+                        "total": 73,
+                        "P": 0.0,
+                        "PI": -0.0
+                    },
+                    "noPoint": {
+                        "correct": 47593,
+                        "total": 52568,
+                        "P": 90.54,
+                        "PI": 0.19
+                    }
+                },
+                "reality": {
+                    "hidden": 4997,
+                    "visible": 1,
+                    "noPoint": 47736
+                },
+                "totalTries": 52734,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.2918342550695492,
+                        "stdev": 4.412057374674499,
+                        "absAvg": 3.7804801407742583
+                    },
+                    "fromHidden": {
+                        "avg": 0.6707317073170732,
+                        "stdev": 4.936772770132377,
+                        "absAvg": 4.280487804878049
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 20,
+                "groupMax": 30,
+                "suppressMin": 20,
+                "suppressMax": 30,
+                "cluster": 1,
+                "base": 5,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 15,
+                        "total": 99,
+                        "P": 15.15,
+                        "PI": 6.19
+                    },
+                    "visible": {
+                        "correct": 0,
+                        "total": 68,
+                        "P": 0.0,
+                        "PI": 0.0
+                    },
+                    "noPoint": {
+                        "correct": 47170,
+                        "total": 52146,
+                        "P": 90.46,
+                        "PI": 0.15
+                    }
+                },
+                "reality": {
+                    "hidden": 4998,
+                    "visible": 0,
+                    "noPoint": 47315
+                },
+                "totalTries": 52313,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.2979816125964282,
+                        "stdev": 4.393945148501896,
+                        "absAvg": 3.7606889992602768
+                    },
+                    "fromHidden": {
+                        "avg": 0.5595238095238095,
+                        "stdev": 4.07859883357133,
+                        "absAvg": 3.511904761904762
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 20,
+                "groupMax": 30,
+                "suppressMin": 2,
+                "suppressMax": 6,
+                "cluster": 1,
+                "base": 10,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    },
+                    "visible": {
+                        "correct": 0,
+                        "total": 106,
+                        "P": 0.0,
+                        "PI": 0.0
+                    },
+                    "noPoint": {
+                        "correct": 47910,
+                        "total": 52890,
+                        "P": 90.58,
+                        "PI": -0.02
+                    }
+                },
+                "reality": {
+                    "hidden": 4991,
+                    "visible": 0,
+                    "noPoint": 48005
+                },
+                "totalTries": 52996,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.29328194979689615,
+                        "stdev": 4.405413934252474,
+                        "absAvg": 3.775585876471201
+                    },
+                    "fromHidden": {
+                        "avg": 0,
+                        "stdev": 0,
+                        "absAvg": 0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 20,
+                "groupMax": 30,
+                "suppressMin": 20,
+                "suppressMax": 30,
+                "cluster": 1,
+                "base": 10,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    },
+                    "visible": {
+                        "correct": 0,
+                        "total": 105,
+                        "P": 0.0,
+                        "PI": 0.0
+                    },
+                    "noPoint": {
+                        "correct": 47532,
+                        "total": 52518,
+                        "P": 90.51,
+                        "PI": 0.08
+                    }
+                },
+                "reality": {
+                    "hidden": 4998,
+                    "visible": 0,
+                    "noPoint": 47625
+                },
+                "totalTries": 52623,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.2920314960629921,
+                        "stdev": 4.409866944098829,
+                        "absAvg": 3.779779527559055
+                    },
+                    "fromHidden": {
+                        "avg": 0,
+                        "stdev": 0,
+                        "absAvg": 0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "suppressMin": 2,
+                "suppressMax": 6,
+                "cluster": 5,
+                "base": 2,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 36,
+                        "total": 756,
+                        "P": 4.76,
+                        "PI": 0.51
+                    },
+                    "visible": {
+                        "correct": 276,
+                        "total": 303,
+                        "P": 91.09,
+                        "PI": 90.6
+                    },
+                    "noPoint": {
+                        "correct": 9080,
+                        "total": 9557,
+                        "P": 95.01,
+                        "PI": 47.18
+                    }
+                },
+                "reality": {
+                    "hidden": 453,
+                    "visible": 550,
+                    "noPoint": 9613
+                },
+                "totalTries": 10616,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.21637366066784564,
+                        "stdev": 14.085428165256712,
+                        "absAvg": 10.38489545407261
+                    },
+                    "fromHidden": {
+                        "avg": 1.875,
+                        "stdev": 15.272988832148329,
+                        "absAvg": 11.3125
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "suppressMin": 20,
+                "suppressMax": 30,
+                "cluster": 5,
+                "base": 2,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 228,
+                        "total": 736,
+                        "P": 30.98,
+                        "PI": 23.61
+                    },
+                    "visible": {
+                        "correct": 11,
+                        "total": 295,
+                        "P": 3.73,
+                        "PI": 3.63
+                    },
+                    "noPoint": {
+                        "correct": 8855,
+                        "total": 9361,
+                        "P": 94.59,
+                        "PI": 44.5
+                    }
+                },
+                "reality": {
+                    "hidden": 1002,
+                    "visible": 11,
+                    "noPoint": 9379
+                },
+                "totalTries": 10392,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.2727369655613605,
+                        "stdev": 4.4702797960185,
+                        "absAvg": 3.795074101716601
+                    },
+                    "fromHidden": {
+                        "avg": 0.14960629921259844,
+                        "stdev": 3.4362695707180317,
+                        "absAvg": 2.811023622047244
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "suppressMin": 2,
+                "suppressMax": 6,
+                "cluster": 5,
+                "base": 5,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 27,
+                        "total": 658,
+                        "P": 4.1,
+                        "PI": -0.3
+                    },
+                    "visible": {
+                        "correct": 258,
+                        "total": 285,
+                        "P": 90.53,
+                        "PI": 90.04
+                    },
+                    "noPoint": {
+                        "correct": 9618,
+                        "total": 10165,
+                        "P": 94.62,
+                        "PI": 42.09
+                    }
+                },
+                "reality": {
+                    "hidden": 487,
+                    "visible": 545,
+                    "noPoint": 10076
+                },
+                "totalTries": 11108,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.2595275903136165,
+                        "stdev": 12.321895762071188,
+                        "absAvg": 9.282751091703057
+                    },
+                    "fromHidden": {
+                        "avg": 0.19861431870669746,
+                        "stdev": 13.042746597867467,
+                        "absAvg": 9.542725173210162
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "suppressMin": 20,
+                "suppressMax": 30,
+                "cluster": 5,
+                "base": 5,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 237,
+                        "total": 607,
+                        "P": 39.04,
+                        "PI": 32.6
+                    },
+                    "visible": {
+                        "correct": 2,
+                        "total": 406,
+                        "P": 0.49,
+                        "PI": 0.47
+                    },
+                    "noPoint": {
+                        "correct": 9231,
+                        "total": 9725,
+                        "P": 94.92,
+                        "PI": 46.94
+                    }
+                },
+                "reality": {
+                    "hidden": 1026,
+                    "visible": 2,
+                    "noPoint": 9710
+                },
+                "totalTries": 10738,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.30597322348094746,
+                        "stdev": 4.4357831280755855,
+                        "absAvg": 3.7974253347064884
+                    },
+                    "fromHidden": {
+                        "avg": 0.36486486486486486,
+                        "stdev": 3.347021991973064,
+                        "absAvg": 2.7864864864864867
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "suppressMin": 2,
+                "suppressMax": 6,
+                "cluster": 5,
+                "base": 10,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 28,
+                        "total": 526,
+                        "P": 5.32,
+                        "PI": 1.0
+                    },
+                    "visible": {
+                        "correct": 280,
+                        "total": 322,
+                        "P": 86.96,
+                        "PI": 86.25
+                    },
+                    "noPoint": {
+                        "correct": 8808,
+                        "total": 9276,
+                        "P": 94.95,
+                        "PI": 47.07
+                    }
+                },
+                "reality": {
+                    "hidden": 442,
+                    "visible": 524,
+                    "noPoint": 9158
+                },
+                "totalTries": 10124,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.1717623935357065,
+                        "stdev": 15.81346302828455,
+                        "absAvg": 11.051430443328238
+                    },
+                    "fromHidden": {
+                        "avg": 0.0759493670886076,
+                        "stdev": 16.899345081251106,
+                        "absAvg": 11.734177215189874
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "suppressMin": 20,
+                "suppressMax": 30,
+                "cluster": 5,
+                "base": 10,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 234,
+                        "total": 549,
+                        "P": 42.62,
+                        "PI": 36.61
+                    },
+                    "visible": {
+                        "correct": 7,
+                        "total": 503,
+                        "P": 1.39,
+                        "PI": 1.33
+                    },
+                    "noPoint": {
+                        "correct": 9398,
+                        "total": 9917,
+                        "P": 94.77,
+                        "PI": 45.21
+                    }
+                },
+                "reality": {
+                    "hidden": 1040,
+                    "visible": 7,
+                    "noPoint": 9922
+                },
+                "totalTries": 10969,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.29721830276154,
+                        "stdev": 4.479213189142323,
+                        "absAvg": 3.826950211650877
+                    },
+                    "fromHidden": {
+                        "avg": 0.24126984126984127,
+                        "stdev": 3.5331295973675463,
+                        "absAvg": 2.7365079365079366
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 20,
+                "groupMax": 30,
+                "suppressMin": 2,
+                "suppressMax": 6,
+                "cluster": 5,
+                "base": 2,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 0,
+                        "total": 13,
+                        "P": 0.0,
+                        "PI": -4.94
+                    },
+                    "visible": {
+                        "correct": 1,
+                        "total": 1,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "noPoint": {
+                        "correct": 9693,
+                        "total": 10704,
+                        "P": 90.55,
+                        "PI": 1.19
+                    }
+                },
+                "reality": {
+                    "hidden": 505,
+                    "visible": 520,
+                    "noPoint": 9693
+                },
+                "totalTries": 10718,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.2646239554317549,
+                        "stdev": 11.425710808243801,
+                        "absAvg": 8.595997111317445
+                    },
+                    "fromHidden": {
+                        "avg": 0,
+                        "stdev": 0,
+                        "absAvg": 0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 20,
+                "groupMax": 30,
+                "suppressMin": 20,
+                "suppressMax": 30,
+                "cluster": 5,
+                "base": 2,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 10,
+                        "total": 83,
+                        "P": 12.05,
+                        "PI": 2.71
+                    },
+                    "visible": {
+                        "correct": 3,
+                        "total": 4,
+                        "P": 75.0,
+                        "PI": 74.99
+                    },
+                    "noPoint": {
+                        "correct": 9599,
+                        "total": 10617,
+                        "P": 90.41,
+                        "PI": 0.63
+                    }
+                },
+                "reality": {
+                    "hidden": 1028,
+                    "visible": 5,
+                    "noPoint": 9671
+                },
+                "totalTries": 10704,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.284148485161824,
+                        "stdev": 4.379669586149667,
+                        "absAvg": 3.742736014889877
+                    },
+                    "fromHidden": {
+                        "avg": 1.0140845070422535,
+                        "stdev": 3.8078601330348967,
+                        "absAvg": 3.352112676056338
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 20,
+                "groupMax": 30,
+                "suppressMin": 2,
+                "suppressMax": 6,
+                "cluster": 5,
+                "base": 5,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 0,
+                        "total": 12,
+                        "P": 0.0,
+                        "PI": -4.4
+                    },
+                    "visible": {
+                        "correct": 1,
+                        "total": 1,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "noPoint": {
+                        "correct": 9132,
+                        "total": 10076,
+                        "P": 90.63,
+                        "PI": 1.22
+                    }
+                },
+                "reality": {
+                    "hidden": 425,
+                    "visible": 532,
+                    "noPoint": 9132
+                },
+                "totalTries": 10089,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.25394218134034163,
+                        "stdev": 13.330570011142695,
+                        "absAvg": 10.00317564607972
+                    },
+                    "fromHidden": {
+                        "avg": 0,
+                        "stdev": 0,
+                        "absAvg": 0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 20,
+                "groupMax": 30,
+                "suppressMin": 20,
+                "suppressMax": 30,
+                "cluster": 5,
+                "base": 5,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 5,
+                        "total": 92,
+                        "P": 5.43,
+                        "PI": -4.75
+                    },
+                    "visible": {
+                        "correct": 1,
+                        "total": 48,
+                        "P": 2.08,
+                        "PI": 2.05
+                    },
+                    "noPoint": {
+                        "correct": 9602,
+                        "total": 10640,
+                        "P": 90.24,
+                        "PI": -0.11
+                    }
+                },
+                "reality": {
+                    "hidden": 1048,
+                    "visible": 3,
+                    "noPoint": 9729
+                },
+                "totalTries": 10780,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.27474560592044406,
+                        "stdev": 4.362630599050068,
+                        "absAvg": 3.7338883749614555
+                    },
+                    "fromHidden": {
+                        "avg": 1.2588235294117647,
+                        "stdev": 3.864222157841609,
+                        "absAvg": 3.3058823529411763
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 20,
+                "groupMax": 30,
+                "suppressMin": 2,
+                "suppressMax": 6,
+                "cluster": 5,
+                "base": 10,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 0,
+                        "total": 14,
+                        "P": 0.0,
+                        "PI": -4.59
+                    },
+                    "visible": {
+                        "correct": 1,
+                        "total": 1,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "noPoint": {
+                        "correct": 9507,
+                        "total": 10484,
+                        "P": 90.68,
+                        "PI": 1.06
+                    }
+                },
+                "reality": {
+                    "hidden": 461,
+                    "visible": 528,
+                    "noPoint": 9510
+                },
+                "totalTries": 10499,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.21377497371188223,
+                        "stdev": 12.230652157198842,
+                        "absAvg": 9.243427970557308
+                    },
+                    "fromHidden": {
+                        "avg": 4.333333333333333,
+                        "stdev": 10.016652800877813,
+                        "absAvg": 9
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 20,
+                "groupMax": 30,
+                "suppressMin": 20,
+                "suppressMax": 30,
+                "cluster": 5,
+                "base": 10,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 12,
+                        "total": 80,
+                        "P": 15.0,
+                        "PI": 6.11
+                    },
+                    "visible": {
+                        "correct": 0,
+                        "total": 46,
+                        "P": 0.0,
+                        "PI": -0.04
+                    },
+                    "noPoint": {
+                        "correct": 9466,
+                        "total": 10455,
+                        "P": 90.54,
+                        "PI": 0.5
+                    }
+                },
+                "reality": {
+                    "hidden": 1002,
+                    "visible": 4,
+                    "noPoint": 9575
+                },
+                "totalTries": 10581,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.3081984334203655,
+                        "stdev": 4.410442846501206,
+                        "absAvg": 3.778485639686684
+                    },
+                    "fromHidden": {
+                        "avg": 0.015625,
+                        "stdev": 3.5388644376320078,
+                        "absAvg": 2.984375
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "suppressMin": 2,
+                "suppressMax": 6,
+                "cluster": 10,
+                "base": 2,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 15,
+                        "total": 366,
+                        "P": 4.1,
+                        "PI": 1.6
+                    },
+                    "visible": {
+                        "correct": 270,
+                        "total": 274,
+                        "P": 98.54,
+                        "PI": 98.43
+                    },
+                    "noPoint": {
+                        "correct": 4645,
+                        "total": 4784,
+                        "P": 97.09,
+                        "PI": 68.68
+                    }
+                },
+                "reality": {
+                    "hidden": 138,
+                    "visible": 366,
+                    "noPoint": 4920
+                },
+                "totalTries": 5424,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.2451219512195122,
+                        "stdev": 23.1364004021186,
+                        "absAvg": 17.228455284552844
+                    },
+                    "fromHidden": {
+                        "avg": -1.5867158671586716,
+                        "stdev": 22.058483895479256,
+                        "absAvg": 16.797047970479706
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "suppressMin": 20,
+                "suppressMax": 30,
+                "cluster": 10,
+                "base": 2,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 91,
+                        "total": 364,
+                        "P": 25.0,
+                        "PI": 18.17
+                    },
+                    "visible": {
+                        "correct": 52,
+                        "total": 267,
+                        "P": 19.48,
+                        "PI": 18.66
+                    },
+                    "noPoint": {
+                        "correct": 4411,
+                        "total": 4546,
+                        "P": 97.03,
+                        "PI": 68.23
+                    }
+                },
+                "reality": {
+                    "hidden": 432,
+                    "visible": 52,
+                    "noPoint": 4693
+                },
+                "totalTries": 5177,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.25783081184743234,
+                        "stdev": 5.276619776474984,
+                        "absAvg": 4.385254634562114
+                    },
+                    "fromHidden": {
+                        "avg": 0.0695970695970696,
+                        "stdev": 4.492509147457731,
+                        "absAvg": 3.4835164835164836
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "suppressMin": 2,
+                "suppressMax": 6,
+                "cluster": 10,
+                "base": 5,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 7,
+                        "total": 335,
+                        "P": 2.09,
+                        "PI": -0.72
+                    },
+                    "visible": {
+                        "correct": 269,
+                        "total": 280,
+                        "P": 96.07,
+                        "PI": 95.8
+                    },
+                    "noPoint": {
+                        "correct": 5190,
+                        "total": 5373,
+                        "P": 96.59,
+                        "PI": 63.21
+                    }
+                },
+                "reality": {
+                    "hidden": 167,
+                    "visible": 388,
+                    "noPoint": 5433
+                },
+                "totalTries": 5988,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": -0.23449291367568562,
+                        "stdev": 23.124675120227067,
+                        "absAvg": 16.222344929136757
+                    },
+                    "fromHidden": {
+                        "avg": -0.8898305084745762,
+                        "stdev": 25.033690965884468,
+                        "absAvg": 17.76271186440678
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "suppressMin": 20,
+                "suppressMax": 30,
+                "cluster": 10,
+                "base": 5,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 67,
+                        "total": 250,
+                        "P": 26.8,
+                        "PI": 20.04
+                    },
+                    "visible": {
+                        "correct": 48,
+                        "total": 319,
+                        "P": 15.05,
+                        "PI": 14.21
+                    },
+                    "noPoint": {
+                        "correct": 4234,
+                        "total": 4361,
+                        "P": 97.09,
+                        "PI": 69.15
+                    }
+                },
+                "reality": {
+                    "hidden": 417,
+                    "visible": 48,
+                    "noPoint": 4465
+                },
+                "totalTries": 4930,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.2678611422172452,
+                        "stdev": 5.386488266108936,
+                        "absAvg": 4.424188129899216
+                    },
+                    "fromHidden": {
+                        "avg": 0.3114754098360656,
+                        "stdev": 4.625090377281116,
+                        "absAvg": 3.546448087431694
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "suppressMin": 2,
+                "suppressMax": 6,
+                "cluster": 10,
+                "base": 10,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 10,
+                        "total": 248,
+                        "P": 4.03,
+                        "PI": 1.31
+                    },
+                    "visible": {
+                        "correct": 264,
+                        "total": 277,
+                        "P": 95.31,
+                        "PI": 94.98
+                    },
+                    "noPoint": {
+                        "correct": 4688,
+                        "total": 4849,
+                        "P": 96.68,
+                        "PI": 64.6
+                    }
+                },
+                "reality": {
+                    "hidden": 148,
+                    "visible": 356,
+                    "noPoint": 4870
+                },
+                "totalTries": 5374,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.40328542094455855,
+                        "stdev": 20.07608216904941,
+                        "absAvg": 15.26776180698152
+                    },
+                    "fromHidden": {
+                        "avg": 1.680473372781065,
+                        "stdev": 19.323490756400087,
+                        "absAvg": 14.603550295857989
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "suppressMin": 20,
+                "suppressMax": 30,
+                "cluster": 10,
+                "base": 10,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 88,
+                        "total": 257,
+                        "P": 34.24,
+                        "PI": 27.77
+                    },
+                    "visible": {
+                        "correct": 39,
+                        "total": 397,
+                        "P": 9.82,
+                        "PI": 9.16
+                    },
+                    "noPoint": {
+                        "correct": 4560,
+                        "total": 4725,
+                        "P": 96.51,
+                        "PI": 63.97
+                    }
+                },
+                "reality": {
+                    "hidden": 482,
+                    "visible": 39,
+                    "noPoint": 4858
+                },
+                "totalTries": 5379,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.3019761218608481,
+                        "stdev": 4.95214906107301,
+                        "absAvg": 4.11300946891725
+                    },
+                    "fromHidden": {
+                        "avg": 0.514792899408284,
+                        "stdev": 4.8281250783642955,
+                        "absAvg": 3.2958579881656807
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 20,
+                "groupMax": 30,
+                "suppressMin": 2,
+                "suppressMax": 6,
+                "cluster": 10,
+                "base": 2,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 0,
+                        "total": 37,
+                        "P": 0.0,
+                        "PI": -2.56
+                    },
+                    "visible": {
+                        "correct": 18,
+                        "total": 18,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "noPoint": {
+                        "correct": 4821,
+                        "total": 5270,
+                        "P": 91.48,
+                        "PI": 9.98
+                    }
+                },
+                "reality": {
+                    "hidden": 133,
+                    "visible": 371,
+                    "noPoint": 4821
+                },
+                "totalTries": 5325,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": -0.069487658162207,
+                        "stdev": 25.606614329788833,
+                        "absAvg": 18.705870151420868
+                    },
+                    "fromHidden": {
+                        "avg": 0,
+                        "stdev": 0,
+                        "absAvg": 0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 20,
+                "groupMax": 30,
+                "suppressMin": 20,
+                "suppressMax": 30,
+                "cluster": 10,
+                "base": 2,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 10,
+                        "total": 66,
+                        "P": 15.15,
+                        "PI": 7.04
+                    },
+                    "visible": {
+                        "correct": 24,
+                        "total": 25,
+                        "P": 96.0,
+                        "PI": 95.97
+                    },
+                    "noPoint": {
+                        "correct": 4677,
+                        "total": 5124,
+                        "P": 91.28,
+                        "PI": 9.05
+                    }
+                },
+                "reality": {
+                    "hidden": 455,
+                    "visible": 45,
+                    "noPoint": 4715
+                },
+                "totalTries": 5215,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.27932131495227996,
+                        "stdev": 5.268262452839643,
+                        "absAvg": 4.325980911983033
+                    },
+                    "fromHidden": {
+                        "avg": -1.0810810810810811,
+                        "stdev": 3.7518764074229014,
+                        "absAvg": 3.4594594594594597
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 20,
+                "groupMax": 30,
+                "suppressMin": 2,
+                "suppressMax": 6,
+                "cluster": 10,
+                "base": 5,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 0,
+                        "total": 46,
+                        "P": 0.0,
+                        "PI": -2.67
+                    },
+                    "visible": {
+                        "correct": 21,
+                        "total": 21,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "noPoint": {
+                        "correct": 4693,
+                        "total": 5123,
+                        "P": 91.61,
+                        "PI": 12.39
+                    }
+                },
+                "reality": {
+                    "hidden": 135,
+                    "visible": 362,
+                    "noPoint": 4693
+                },
+                "totalTries": 5190,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.17323673556360536,
+                        "stdev": 23.79103292775225,
+                        "absAvg": 17.345621137864907
+                    },
+                    "fromHidden": {
+                        "avg": 0,
+                        "stdev": 0,
+                        "absAvg": 0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 20,
+                "groupMax": 30,
+                "suppressMin": 20,
+                "suppressMax": 30,
+                "cluster": 10,
+                "base": 5,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 10,
+                        "total": 69,
+                        "P": 14.49,
+                        "PI": 6.58
+                    },
+                    "visible": {
+                        "correct": 28,
+                        "total": 53,
+                        "P": 52.83,
+                        "PI": 52.37
+                    },
+                    "noPoint": {
+                        "correct": 4334,
+                        "total": 4733,
+                        "P": 91.57,
+                        "PI": 10.64
+                    }
+                },
+                "reality": {
+                    "hidden": 411,
+                    "visible": 47,
+                    "noPoint": 4397
+                },
+                "totalTries": 4855,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.2979304070957471,
+                        "stdev": 5.311406150658085,
+                        "absAvg": 4.3438708210143275
+                    },
+                    "fromHidden": {
+                        "avg": 0.6341463414634146,
+                        "stdev": 3.793126003450028,
+                        "absAvg": 3.268292682926829
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 20,
+                "groupMax": 30,
+                "suppressMin": 2,
+                "suppressMax": 6,
+                "cluster": 10,
+                "base": 10,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 0,
+                        "total": 35,
+                        "P": 0.0,
+                        "PI": -2.94
+                    },
+                    "visible": {
+                        "correct": 18,
+                        "total": 18,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "noPoint": {
+                        "correct": 5052,
+                        "total": 5511,
+                        "P": 91.67,
+                        "PI": 9.48
+                    }
+                },
+                "reality": {
+                    "hidden": 159,
+                    "visible": 353,
+                    "noPoint": 5052
+                },
+                "totalTries": 5564,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.5686856690419636,
+                        "stdev": 17.828741408423713,
+                        "absAvg": 13.719517022961204
+                    },
+                    "fromHidden": {
+                        "avg": 0,
+                        "stdev": 0,
+                        "absAvg": 0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 20,
+                "groupMax": 30,
+                "suppressMin": 20,
+                "suppressMax": 30,
+                "cluster": 10,
+                "base": 10,
+                "numPoints": 5000
+            },
+            "attack": {
+                "guesses": {
+                    "hidden": {
+                        "correct": 7,
+                        "total": 62,
+                        "P": 11.29,
+                        "PI": 2.36
+                    },
+                    "visible": {
+                        "correct": 18,
+                        "total": 70,
+                        "P": 25.71,
+                        "PI": 25.23
+                    },
+                    "noPoint": {
+                        "correct": 4710,
+                        "total": 5183,
+                        "P": 90.87,
+                        "PI": 6.68
+                    }
+                },
+                "reality": {
+                    "hidden": 486,
+                    "visible": 34,
+                    "noPoint": 4795
+                },
+                "totalTries": 5315,
+                "error": {
+                    "fromNoPoint": {
+                        "avg": 0.26986444212721583,
+                        "stdev": 4.821788509777032,
+                        "absAvg": 4.041293013555787
+                    },
+                    "fromHidden": {
+                        "avg": -0.475,
+                        "stdev": 4.11991722595466,
+                        "absAvg": 3.075
+                    }
+                }
+            }
+        }
+    ],
+    "selected": {
+        "groupMin": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+        ],
+        "groupMax": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30
+        ],
+        "cluster": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+        ],
+        "suppressMin": [
+            2,
+            20,
+            2,
+            20,
+            2,
+            20,
+            2,
+            20,
+            2,
+            20,
+            2,
+            20,
+            2,
+            20,
+            2,
+            20,
+            2,
+            20,
+            2,
+            20,
+            2,
+            20,
+            2,
+            20,
+            2,
+            20,
+            2,
+            20,
+            2,
+            20,
+            2,
+            20,
+            2,
+            20,
+            2,
+            20
+        ],
+        "suppressMax": [
+            6,
+            30,
+            6,
+            30,
+            6,
+            30,
+            6,
+            30,
+            6,
+            30,
+            6,
+            30,
+            6,
+            30,
+            6,
+            30,
+            6,
+            30,
+            6,
+            30,
+            6,
+            30,
+            6,
+            30,
+            6,
+            30,
+            6,
+            30,
+            6,
+            30,
+            6,
+            30,
+            6,
+            30,
+            6,
+            30
+        ],
+        "base": [
+            2,
+            2,
+            5,
+            5,
+            10,
+            10,
+            2,
+            2,
+            5,
+            5,
+            10,
+            10,
+            2,
+            2,
+            5,
+            5,
+            10,
+            10,
+            2,
+            2,
+            5,
+            5,
+            10,
+            10,
+            2,
+            2,
+            5,
+            5,
+            10,
+            10,
+            2,
+            2,
+            5,
+            5,
+            10,
+            10
+        ],
+        "numPoints": [
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000,
+            5000
+        ],
+        "hiddenP": [
+            12.62,
+            14.02,
+            12.04,
+            9.49,
+            14.95,
+            13.08,
+            9.28,
+            6.82,
+            11.83,
+            15.15,
+            0,
+            0,
+            4.76,
+            30.98,
+            4.1,
+            39.04,
+            5.32,
+            42.62,
+            0.0,
+            12.05,
+            0.0,
+            5.43,
+            0.0,
+            15.0,
+            4.1,
+            25.0,
+            2.09,
+            26.8,
+            4.03,
+            34.24,
+            0.0,
+            15.15,
+            0.0,
+            14.49,
+            0.0,
+            11.29
+        ],
+        "hiddenPI": [
+            3.42,
+            4.88,
+            2.71,
+            0.18,
+            5.85,
+            3.81,
+            -0.36,
+            -2.92,
+            2.6,
+            6.19,
+            0,
+            0,
+            0.51,
+            23.61,
+            -0.3,
+            32.6,
+            1.0,
+            36.61,
+            -4.94,
+            2.71,
+            -4.4,
+            -4.75,
+            -4.59,
+            6.11,
+            1.6,
+            18.17,
+            -0.72,
+            20.04,
+            1.31,
+            27.77,
+            -2.56,
+            7.04,
+            -2.67,
+            6.58,
+            -2.94,
+            2.36
+        ],
+        "visibleP": [
+            1.05,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            91.09,
+            3.73,
+            90.53,
+            0.49,
+            86.96,
+            1.39,
+            100.0,
+            75.0,
+            100.0,
+            2.08,
+            100.0,
+            0.0,
+            98.54,
+            19.48,
+            96.07,
+            15.05,
+            95.31,
+            9.82,
+            100.0,
+            96.0,
+            100.0,
+            52.83,
+            100.0,
+            25.71
+        ],
+        "visiblePI": [
+            1.05,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0,
+            0.0,
+            -0.0,
+            0.0,
+            0.0,
+            0.0,
+            90.6,
+            3.63,
+            90.04,
+            0.47,
+            86.25,
+            1.33,
+            100.0,
+            74.99,
+            100.0,
+            2.05,
+            100.0,
+            -0.04,
+            98.43,
+            18.66,
+            95.8,
+            14.21,
+            94.98,
+            9.16,
+            100.0,
+            95.97,
+            100.0,
+            52.37,
+            100.0,
+            25.23
+        ],
+        "errImp": [
+            8.7,
+            6.4,
+            5.3,
+            7.2,
+            3.8,
+            5.8,
+            -11.8,
+            8.8,
+            -13.2,
+            6.6,
+            100.0,
+            100.0,
+            -8.9,
+            25.9,
+            -2.8,
+            26.6,
+            -6.2,
+            28.5,
+            100.0,
+            10.4,
+            100.0,
+            11.5,
+            2.6,
+            21.0,
+            2.5,
+            20.6,
+            -9.5,
+            19.8,
+            4.4,
+            19.9,
+            100.0,
+            20.0,
+            100.0,
+            24.8,
+            100.0,
+            23.9
+        ],
+        "errAvg": [
+            0.1,
+            0.3,
+            0.1,
+            0.5,
+            0.2,
+            0.5,
+            0.9,
+            -0.4,
+            0.7,
+            0.6,
+            0,
+            0,
+            1.9,
+            0.1,
+            0.2,
+            0.4,
+            0.1,
+            0.2,
+            0,
+            1.0,
+            0,
+            1.3,
+            4.3,
+            0.0,
+            -1.6,
+            0.1,
+            -0.9,
+            0.3,
+            1.7,
+            0.5,
+            0,
+            -1.1,
+            0,
+            0.6,
+            0,
+            -0.5
+        ],
+        "errAbsAvg": [
+            3.4,
+            3.5,
+            3.6,
+            3.5,
+            3.6,
+            3.5,
+            4.2,
+            3.4,
+            4.3,
+            3.5,
+            0,
+            0,
+            11.3,
+            2.8,
+            9.5,
+            2.8,
+            11.7,
+            2.7,
+            0,
+            3.4,
+            0,
+            3.3,
+            9,
+            3.0,
+            16.8,
+            3.5,
+            17.8,
+            3.5,
+            14.6,
+            3.3,
+            0,
+            3.5,
+            0,
+            3.3,
+            0,
+            3.1
+        ],
+        "errStd": [
+            4.1,
+            4.1,
+            4.2,
+            4.2,
+            4.3,
+            4.1,
+            4.8,
+            4.1,
+            4.9,
+            4.1,
+            0,
+            0,
+            15.3,
+            3.4,
+            13.0,
+            3.3,
+            16.9,
+            3.5,
+            0,
+            3.8,
+            0,
+            3.9,
+            10.0,
+            3.5,
+            22.1,
+            4.5,
+            25.0,
+            4.6,
+            19.3,
+            4.8,
+            0,
+            3.8,
+            0,
+            3.8,
+            0,
+            4.1
+        ]
+    }
+}

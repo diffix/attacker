@@ -1,0 +1,4720 @@
+{
+    "bulk": [
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "cluster": 2,
+                "base": 2,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 434,
+                    "total": 498,
+                    "P": 87.15,
+                    "PI": 74.3
+                },
+                "singles": {
+                    "correct": 107,
+                    "total": 133,
+                    "P": 80.45,
+                    "PI": 60.9
+                },
+                "grouped": {
+                    "correct": 327,
+                    "total": 365,
+                    "P": 89.59,
+                    "PI": 79.18
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 77,
+                        "total": 77,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 168,
+                        "total": 168,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 30,
+                        "total": 56,
+                        "P": 53.57,
+                        "PI": 7.14
+                    },
+                    "grouped": {
+                        "correct": 159,
+                        "total": 197,
+                        "P": 80.71,
+                        "PI": 61.42
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "cluster": 2,
+                "base": 2,
+                "numPoints": 501
+            },
+            "attack": {
+                "all": {
+                    "correct": 439,
+                    "total": 499,
+                    "P": 87.98,
+                    "PI": 75.96
+                },
+                "singles": {
+                    "correct": 103,
+                    "total": 129,
+                    "P": 79.84,
+                    "PI": 59.68
+                },
+                "grouped": {
+                    "correct": 336,
+                    "total": 370,
+                    "P": 90.81,
+                    "PI": 81.62
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 61,
+                        "total": 61,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 185,
+                        "total": 185,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 42,
+                        "total": 68,
+                        "P": 61.76,
+                        "PI": 23.52
+                    },
+                    "grouped": {
+                        "correct": 151,
+                        "total": 185,
+                        "P": 81.62,
+                        "PI": 63.24
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "cluster": 2,
+                "base": 2,
+                "numPoints": 502
+            },
+            "attack": {
+                "all": {
+                    "correct": 444,
+                    "total": 500,
+                    "P": 88.8,
+                    "PI": 77.6
+                },
+                "singles": {
+                    "correct": 109,
+                    "total": 132,
+                    "P": 82.58,
+                    "PI": 65.16
+                },
+                "grouped": {
+                    "correct": 335,
+                    "total": 368,
+                    "P": 91.03,
+                    "PI": 82.06
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 56,
+                        "total": 56,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 200,
+                        "total": 200,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 53,
+                        "total": 76,
+                        "P": 69.74,
+                        "PI": 39.48
+                    },
+                    "grouped": {
+                        "correct": 135,
+                        "total": 168,
+                        "P": 80.36,
+                        "PI": 60.72
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "cluster": 2,
+                "base": 2,
+                "numPoints": 503
+            },
+            "attack": {
+                "all": {
+                    "correct": 438,
+                    "total": 501,
+                    "P": 87.43,
+                    "PI": 74.86
+                },
+                "singles": {
+                    "correct": 102,
+                    "total": 120,
+                    "P": 85.0,
+                    "PI": 70.0
+                },
+                "grouped": {
+                    "correct": 336,
+                    "total": 381,
+                    "P": 88.19,
+                    "PI": 76.38
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 64,
+                        "total": 64,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 189,
+                        "total": 189,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 38,
+                        "total": 56,
+                        "P": 67.86,
+                        "PI": 35.72
+                    },
+                    "grouped": {
+                        "correct": 147,
+                        "total": 192,
+                        "P": 76.56,
+                        "PI": 53.12
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "cluster": 2,
+                "base": 2,
+                "numPoints": 504
+            },
+            "attack": {
+                "all": {
+                    "correct": 464,
+                    "total": 502,
+                    "P": 92.43,
+                    "PI": 84.86
+                },
+                "singles": {
+                    "correct": 108,
+                    "total": 129,
+                    "P": 83.72,
+                    "PI": 67.44
+                },
+                "grouped": {
+                    "correct": 356,
+                    "total": 373,
+                    "P": 95.44,
+                    "PI": 90.88
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 59,
+                        "total": 59,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 193,
+                        "total": 193,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 49,
+                        "total": 70,
+                        "P": 70.0,
+                        "PI": 40.0
+                    },
+                    "grouped": {
+                        "correct": 163,
+                        "total": 180,
+                        "P": 90.56,
+                        "PI": 81.12
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "cluster": 2,
+                "base": 2,
+                "numPoints": 505
+            },
+            "attack": {
+                "all": {
+                    "correct": 447,
+                    "total": 503,
+                    "P": 88.87,
+                    "PI": 77.74
+                },
+                "singles": {
+                    "correct": 97,
+                    "total": 112,
+                    "P": 86.61,
+                    "PI": 73.22
+                },
+                "grouped": {
+                    "correct": 350,
+                    "total": 391,
+                    "P": 89.51,
+                    "PI": 79.02
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 58,
+                        "total": 58,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 191,
+                        "total": 191,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 39,
+                        "total": 54,
+                        "P": 72.22,
+                        "PI": 44.44
+                    },
+                    "grouped": {
+                        "correct": 159,
+                        "total": 200,
+                        "P": 79.5,
+                        "PI": 59.0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "cluster": 2,
+                "base": 2,
+                "numPoints": 506
+            },
+            "attack": {
+                "all": {
+                    "correct": 449,
+                    "total": 504,
+                    "P": 89.09,
+                    "PI": 78.18
+                },
+                "singles": {
+                    "correct": 111,
+                    "total": 135,
+                    "P": 82.22,
+                    "PI": 64.44
+                },
+                "grouped": {
+                    "correct": 338,
+                    "total": 369,
+                    "P": 91.6,
+                    "PI": 83.2
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 58,
+                        "total": 58,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 177,
+                        "total": 177,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 53,
+                        "total": 77,
+                        "P": 68.83,
+                        "PI": 37.66
+                    },
+                    "grouped": {
+                        "correct": 161,
+                        "total": 192,
+                        "P": 83.85,
+                        "PI": 67.7
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "cluster": 2,
+                "base": 2,
+                "numPoints": 507
+            },
+            "attack": {
+                "all": {
+                    "correct": 462,
+                    "total": 505,
+                    "P": 91.49,
+                    "PI": 82.98
+                },
+                "singles": {
+                    "correct": 121,
+                    "total": 142,
+                    "P": 85.21,
+                    "PI": 70.42
+                },
+                "grouped": {
+                    "correct": 341,
+                    "total": 363,
+                    "P": 93.94,
+                    "PI": 87.88
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 76,
+                        "total": 76,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 206,
+                        "total": 206,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 45,
+                        "total": 66,
+                        "P": 68.18,
+                        "PI": 36.36
+                    },
+                    "grouped": {
+                        "correct": 135,
+                        "total": 157,
+                        "P": 85.99,
+                        "PI": 71.98
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "cluster": 2,
+                "base": 2,
+                "numPoints": 508
+            },
+            "attack": {
+                "all": {
+                    "correct": 443,
+                    "total": 506,
+                    "P": 87.55,
+                    "PI": 75.1
+                },
+                "singles": {
+                    "correct": 107,
+                    "total": 135,
+                    "P": 79.26,
+                    "PI": 58.52
+                },
+                "grouped": {
+                    "correct": 336,
+                    "total": 371,
+                    "P": 90.57,
+                    "PI": 81.14
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 64,
+                        "total": 64,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 178,
+                        "total": 178,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 43,
+                        "total": 71,
+                        "P": 60.56,
+                        "PI": 21.12
+                    },
+                    "grouped": {
+                        "correct": 158,
+                        "total": 193,
+                        "P": 81.87,
+                        "PI": 63.74
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "cluster": 2,
+                "base": 2,
+                "numPoints": 509
+            },
+            "attack": {
+                "all": {
+                    "correct": 455,
+                    "total": 507,
+                    "P": 89.74,
+                    "PI": 79.48
+                },
+                "singles": {
+                    "correct": 95,
+                    "total": 113,
+                    "P": 84.07,
+                    "PI": 68.14
+                },
+                "grouped": {
+                    "correct": 360,
+                    "total": 394,
+                    "P": 91.37,
+                    "PI": 82.74
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 53,
+                        "total": 53,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 225,
+                        "total": 225,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 42,
+                        "total": 60,
+                        "P": 70.0,
+                        "PI": 40.0
+                    },
+                    "grouped": {
+                        "correct": 135,
+                        "total": 169,
+                        "P": 79.88,
+                        "PI": 59.76
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 4,
+                "cluster": 1,
+                "base": 5,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 409,
+                    "total": 498,
+                    "P": 82.13,
+                    "PI": 64.26
+                },
+                "singles": {
+                    "correct": 409,
+                    "total": 498,
+                    "P": 82.13,
+                    "PI": 64.26
+                },
+                "grouped": {
+                    "correct": 0,
+                    "total": 0,
+                    "P": 0,
+                    "PI": 0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 246,
+                        "total": 246,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 163,
+                        "total": 252,
+                        "P": 64.68,
+                        "PI": 29.36
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 4,
+                "cluster": 1,
+                "base": 2,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 424,
+                    "total": 498,
+                    "P": 85.14,
+                    "PI": 70.28
+                },
+                "singles": {
+                    "correct": 424,
+                    "total": 498,
+                    "P": 85.14,
+                    "PI": 70.28
+                },
+                "grouped": {
+                    "correct": 0,
+                    "total": 0,
+                    "P": 0,
+                    "PI": 0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 235,
+                        "total": 235,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 189,
+                        "total": 263,
+                        "P": 71.86,
+                        "PI": 43.72
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 4,
+                "cluster": 1,
+                "base": 1.9,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 437,
+                    "total": 498,
+                    "P": 87.75,
+                    "PI": 75.5
+                },
+                "singles": {
+                    "correct": 437,
+                    "total": 498,
+                    "P": 87.75,
+                    "PI": 75.5
+                },
+                "grouped": {
+                    "correct": 0,
+                    "total": 0,
+                    "P": 0,
+                    "PI": 0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 239,
+                        "total": 239,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 198,
+                        "total": 259,
+                        "P": 76.45,
+                        "PI": 52.9
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 4,
+                "cluster": 1,
+                "base": 1.5,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 442,
+                    "total": 498,
+                    "P": 88.76,
+                    "PI": 77.52
+                },
+                "singles": {
+                    "correct": 442,
+                    "total": 498,
+                    "P": 88.76,
+                    "PI": 77.52
+                },
+                "grouped": {
+                    "correct": 0,
+                    "total": 0,
+                    "P": 0,
+                    "PI": 0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 243,
+                        "total": 243,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 199,
+                        "total": 255,
+                        "P": 78.04,
+                        "PI": 56.08
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 4,
+                "cluster": 1,
+                "base": 1.01,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 455,
+                    "total": 498,
+                    "P": 91.37,
+                    "PI": 82.74
+                },
+                "singles": {
+                    "correct": 455,
+                    "total": 498,
+                    "P": 91.37,
+                    "PI": 82.74
+                },
+                "grouped": {
+                    "correct": 0,
+                    "total": 0,
+                    "P": 0,
+                    "PI": 0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 272,
+                        "total": 272,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 183,
+                        "total": 226,
+                        "P": 80.97,
+                        "PI": 61.94
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "cluster": 1,
+                "base": 5,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 420,
+                    "total": 498,
+                    "P": 84.34,
+                    "PI": 68.68
+                },
+                "singles": {
+                    "correct": 419,
+                    "total": 496,
+                    "P": 84.48,
+                    "PI": 68.96
+                },
+                "grouped": {
+                    "correct": 1,
+                    "total": 2,
+                    "P": 50.0,
+                    "PI": 0.0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 273,
+                        "total": 273,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 146,
+                        "total": 223,
+                        "P": 65.47,
+                        "PI": 30.94
+                    },
+                    "grouped": {
+                        "correct": 1,
+                        "total": 2,
+                        "P": 50.0,
+                        "PI": 0.0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "cluster": 1,
+                "base": 2,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 447,
+                    "total": 498,
+                    "P": 89.76,
+                    "PI": 79.52
+                },
+                "singles": {
+                    "correct": 447,
+                    "total": 498,
+                    "P": 89.76,
+                    "PI": 79.52
+                },
+                "grouped": {
+                    "correct": 0,
+                    "total": 0,
+                    "P": 0,
+                    "PI": 0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 250,
+                        "total": 250,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 197,
+                        "total": 248,
+                        "P": 79.44,
+                        "PI": 58.88
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "cluster": 1,
+                "base": 1.9,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 444,
+                    "total": 498,
+                    "P": 89.16,
+                    "PI": 78.32
+                },
+                "singles": {
+                    "correct": 444,
+                    "total": 498,
+                    "P": 89.16,
+                    "PI": 78.32
+                },
+                "grouped": {
+                    "correct": 0,
+                    "total": 0,
+                    "P": 0,
+                    "PI": 0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 258,
+                        "total": 258,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 186,
+                        "total": 240,
+                        "P": 77.5,
+                        "PI": 55.0
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "cluster": 1,
+                "base": 1.5,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 439,
+                    "total": 498,
+                    "P": 88.15,
+                    "PI": 76.3
+                },
+                "singles": {
+                    "correct": 439,
+                    "total": 498,
+                    "P": 88.15,
+                    "PI": 76.3
+                },
+                "grouped": {
+                    "correct": 0,
+                    "total": 0,
+                    "P": 0,
+                    "PI": 0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 246,
+                        "total": 246,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 193,
+                        "total": 252,
+                        "P": 76.59,
+                        "PI": 53.18
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "cluster": 1,
+                "base": 1.01,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 462,
+                    "total": 498,
+                    "P": 92.77,
+                    "PI": 85.54
+                },
+                "singles": {
+                    "correct": 460,
+                    "total": 496,
+                    "P": 92.74,
+                    "PI": 85.48
+                },
+                "grouped": {
+                    "correct": 2,
+                    "total": 2,
+                    "P": 100.0,
+                    "PI": 100.0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 259,
+                        "total": 259,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 2,
+                        "total": 2,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 201,
+                        "total": 237,
+                        "P": 84.81,
+                        "PI": 69.62
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 1,
+                "groupMax": 1,
+                "cluster": 1,
+                "base": 5,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 460,
+                    "total": 498,
+                    "P": 92.37,
+                    "PI": 84.74
+                },
+                "singles": {
+                    "correct": 456,
+                    "total": 494,
+                    "P": 92.31,
+                    "PI": 84.62
+                },
+                "grouped": {
+                    "correct": 4,
+                    "total": 4,
+                    "P": 100.0,
+                    "PI": 100.0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 252,
+                        "total": 252,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 204,
+                        "total": 242,
+                        "P": 84.3,
+                        "PI": 68.6
+                    },
+                    "grouped": {
+                        "correct": 4,
+                        "total": 4,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 1,
+                "groupMax": 1,
+                "cluster": 1,
+                "base": 2,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 456,
+                    "total": 498,
+                    "P": 91.57,
+                    "PI": 83.14
+                },
+                "singles": {
+                    "correct": 456,
+                    "total": 498,
+                    "P": 91.57,
+                    "PI": 83.14
+                },
+                "grouped": {
+                    "correct": 0,
+                    "total": 0,
+                    "P": 0,
+                    "PI": 0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 244,
+                        "total": 244,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 212,
+                        "total": 254,
+                        "P": 83.46,
+                        "PI": 66.92
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 1,
+                "groupMax": 1,
+                "cluster": 1,
+                "base": 1.9,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 451,
+                    "total": 498,
+                    "P": 90.56,
+                    "PI": 81.12
+                },
+                "singles": {
+                    "correct": 449,
+                    "total": 496,
+                    "P": 90.52,
+                    "PI": 81.04
+                },
+                "grouped": {
+                    "correct": 2,
+                    "total": 2,
+                    "P": 100.0,
+                    "PI": 100.0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 254,
+                        "total": 254,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 195,
+                        "total": 242,
+                        "P": 80.58,
+                        "PI": 61.16
+                    },
+                    "grouped": {
+                        "correct": 2,
+                        "total": 2,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 1,
+                "groupMax": 1,
+                "cluster": 1,
+                "base": 1.5,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 458,
+                    "total": 498,
+                    "P": 91.97,
+                    "PI": 83.94
+                },
+                "singles": {
+                    "correct": 458,
+                    "total": 498,
+                    "P": 91.97,
+                    "PI": 83.94
+                },
+                "grouped": {
+                    "correct": 0,
+                    "total": 0,
+                    "P": 0,
+                    "PI": 0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 270,
+                        "total": 270,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 188,
+                        "total": 228,
+                        "P": 82.46,
+                        "PI": 64.92
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 1,
+                "groupMax": 1,
+                "cluster": 1,
+                "base": 1.01,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 460,
+                    "total": 498,
+                    "P": 92.37,
+                    "PI": 84.74
+                },
+                "singles": {
+                    "correct": 460,
+                    "total": 498,
+                    "P": 92.37,
+                    "PI": 84.74
+                },
+                "grouped": {
+                    "correct": 0,
+                    "total": 0,
+                    "P": 0,
+                    "PI": 0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 234,
+                        "total": 234,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 226,
+                        "total": 264,
+                        "P": 85.61,
+                        "PI": 71.22
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 4,
+                "groupMax": 8,
+                "cluster": 1,
+                "base": 5,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 378,
+                    "total": 498,
+                    "P": 75.9,
+                    "PI": 51.8
+                },
+                "singles": {
+                    "correct": 378,
+                    "total": 498,
+                    "P": 75.9,
+                    "PI": 51.8
+                },
+                "grouped": {
+                    "correct": 0,
+                    "total": 0,
+                    "P": 0,
+                    "PI": 0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 233,
+                        "total": 233,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 145,
+                        "total": 265,
+                        "P": 54.72,
+                        "PI": 9.44
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 4,
+                "groupMax": 8,
+                "cluster": 1,
+                "base": 2,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 429,
+                    "total": 498,
+                    "P": 86.14,
+                    "PI": 72.28
+                },
+                "singles": {
+                    "correct": 427,
+                    "total": 494,
+                    "P": 86.44,
+                    "PI": 72.88
+                },
+                "grouped": {
+                    "correct": 2,
+                    "total": 4,
+                    "P": 50.0,
+                    "PI": 0.0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 277,
+                        "total": 277,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 2,
+                        "total": 2,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 150,
+                        "total": 217,
+                        "P": 69.12,
+                        "PI": 38.24
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 2,
+                        "P": 0.0,
+                        "PI": -100.0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 4,
+                "groupMax": 8,
+                "cluster": 1,
+                "base": 1.9,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 437,
+                    "total": 498,
+                    "P": 87.75,
+                    "PI": 75.5
+                },
+                "singles": {
+                    "correct": 437,
+                    "total": 498,
+                    "P": 87.75,
+                    "PI": 75.5
+                },
+                "grouped": {
+                    "correct": 0,
+                    "total": 0,
+                    "P": 0,
+                    "PI": 0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 244,
+                        "total": 244,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 193,
+                        "total": 254,
+                        "P": 75.98,
+                        "PI": 51.96
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 4,
+                "groupMax": 8,
+                "cluster": 1,
+                "base": 1.5,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 439,
+                    "total": 498,
+                    "P": 88.15,
+                    "PI": 76.3
+                },
+                "singles": {
+                    "correct": 439,
+                    "total": 498,
+                    "P": 88.15,
+                    "PI": 76.3
+                },
+                "grouped": {
+                    "correct": 0,
+                    "total": 0,
+                    "P": 0,
+                    "PI": 0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 280,
+                        "total": 280,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 159,
+                        "total": 218,
+                        "P": 72.94,
+                        "PI": 45.88
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 4,
+                "groupMax": 8,
+                "cluster": 1,
+                "base": 1.01,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 454,
+                    "total": 498,
+                    "P": 91.16,
+                    "PI": 82.32
+                },
+                "singles": {
+                    "correct": 452,
+                    "total": 496,
+                    "P": 91.13,
+                    "PI": 82.26
+                },
+                "grouped": {
+                    "correct": 2,
+                    "total": 2,
+                    "P": 100.0,
+                    "PI": 100.0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 230,
+                        "total": 230,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 2,
+                        "total": 2,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 222,
+                        "total": 266,
+                        "P": 83.46,
+                        "PI": 66.92
+                    },
+                    "grouped": {
+                        "correct": 0,
+                        "total": 0,
+                        "P": 0,
+                        "PI": 0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 4,
+                "cluster": 2,
+                "base": 5,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 457,
+                    "total": 498,
+                    "P": 91.77,
+                    "PI": 83.54
+                },
+                "singles": {
+                    "correct": 95,
+                    "total": 113,
+                    "P": 84.07,
+                    "PI": 68.14
+                },
+                "grouped": {
+                    "correct": 362,
+                    "total": 385,
+                    "P": 94.03,
+                    "PI": 88.06
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 66,
+                        "total": 66,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 199,
+                        "total": 199,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 29,
+                        "total": 47,
+                        "P": 61.7,
+                        "PI": 23.4
+                    },
+                    "grouped": {
+                        "correct": 163,
+                        "total": 186,
+                        "P": 87.63,
+                        "PI": 75.26
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 4,
+                "cluster": 2,
+                "base": 2,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 437,
+                    "total": 498,
+                    "P": 87.75,
+                    "PI": 75.5
+                },
+                "singles": {
+                    "correct": 96,
+                    "total": 124,
+                    "P": 77.42,
+                    "PI": 54.84
+                },
+                "grouped": {
+                    "correct": 341,
+                    "total": 374,
+                    "P": 91.18,
+                    "PI": 82.36
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 59,
+                        "total": 59,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 171,
+                        "total": 171,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 37,
+                        "total": 65,
+                        "P": 56.92,
+                        "PI": 13.84
+                    },
+                    "grouped": {
+                        "correct": 170,
+                        "total": 203,
+                        "P": 83.74,
+                        "PI": 67.48
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 4,
+                "cluster": 2,
+                "base": 1.9,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 423,
+                    "total": 498,
+                    "P": 84.94,
+                    "PI": 69.88
+                },
+                "singles": {
+                    "correct": 96,
+                    "total": 122,
+                    "P": 78.69,
+                    "PI": 57.38
+                },
+                "grouped": {
+                    "correct": 327,
+                    "total": 376,
+                    "P": 86.97,
+                    "PI": 73.94
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 56,
+                        "total": 56,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 169,
+                        "total": 169,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 40,
+                        "total": 66,
+                        "P": 60.61,
+                        "PI": 21.22
+                    },
+                    "grouped": {
+                        "correct": 158,
+                        "total": 207,
+                        "P": 76.33,
+                        "PI": 52.66
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 4,
+                "cluster": 2,
+                "base": 1.5,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 452,
+                    "total": 498,
+                    "P": 90.76,
+                    "PI": 81.52
+                },
+                "singles": {
+                    "correct": 100,
+                    "total": 122,
+                    "P": 81.97,
+                    "PI": 63.94
+                },
+                "grouped": {
+                    "correct": 352,
+                    "total": 376,
+                    "P": 93.62,
+                    "PI": 87.24
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 57,
+                        "total": 57,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 202,
+                        "total": 202,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 43,
+                        "total": 65,
+                        "P": 66.15,
+                        "PI": 32.3
+                    },
+                    "grouped": {
+                        "correct": 150,
+                        "total": 174,
+                        "P": 86.21,
+                        "PI": 72.42
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 4,
+                "cluster": 2,
+                "base": 1.01,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 439,
+                    "total": 498,
+                    "P": 88.15,
+                    "PI": 76.3
+                },
+                "singles": {
+                    "correct": 119,
+                    "total": 144,
+                    "P": 82.64,
+                    "PI": 65.28
+                },
+                "grouped": {
+                    "correct": 320,
+                    "total": 354,
+                    "P": 90.4,
+                    "PI": 80.8
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 70,
+                        "total": 70,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 173,
+                        "total": 173,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 49,
+                        "total": 74,
+                        "P": 66.22,
+                        "PI": 32.44
+                    },
+                    "grouped": {
+                        "correct": 147,
+                        "total": 181,
+                        "P": 81.22,
+                        "PI": 62.44
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "cluster": 2,
+                "base": 5,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 431,
+                    "total": 498,
+                    "P": 86.55,
+                    "PI": 73.1
+                },
+                "singles": {
+                    "correct": 98,
+                    "total": 126,
+                    "P": 77.78,
+                    "PI": 55.56
+                },
+                "grouped": {
+                    "correct": 333,
+                    "total": 372,
+                    "P": 89.52,
+                    "PI": 79.04
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 56,
+                        "total": 56,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 188,
+                        "total": 188,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 42,
+                        "total": 70,
+                        "P": 60.0,
+                        "PI": 20.0
+                    },
+                    "grouped": {
+                        "correct": 145,
+                        "total": 184,
+                        "P": 78.8,
+                        "PI": 57.6
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "cluster": 2,
+                "base": 1.9,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 438,
+                    "total": 498,
+                    "P": 87.95,
+                    "PI": 75.9
+                },
+                "singles": {
+                    "correct": 100,
+                    "total": 123,
+                    "P": 81.3,
+                    "PI": 62.6
+                },
+                "grouped": {
+                    "correct": 338,
+                    "total": 375,
+                    "P": 90.13,
+                    "PI": 80.26
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 52,
+                        "total": 52,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 174,
+                        "total": 174,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 48,
+                        "total": 71,
+                        "P": 67.61,
+                        "PI": 35.22
+                    },
+                    "grouped": {
+                        "correct": 164,
+                        "total": 201,
+                        "P": 81.59,
+                        "PI": 63.18
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "cluster": 2,
+                "base": 1.5,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 451,
+                    "total": 498,
+                    "P": 90.56,
+                    "PI": 81.12
+                },
+                "singles": {
+                    "correct": 95,
+                    "total": 123,
+                    "P": 77.24,
+                    "PI": 54.48
+                },
+                "grouped": {
+                    "correct": 356,
+                    "total": 375,
+                    "P": 94.93,
+                    "PI": 89.86
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 56,
+                        "total": 56,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 222,
+                        "total": 222,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 39,
+                        "total": 67,
+                        "P": 58.21,
+                        "PI": 16.42
+                    },
+                    "grouped": {
+                        "correct": 134,
+                        "total": 153,
+                        "P": 87.58,
+                        "PI": 75.16
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "cluster": 2,
+                "base": 1.01,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 462,
+                    "total": 498,
+                    "P": 92.77,
+                    "PI": 85.54
+                },
+                "singles": {
+                    "correct": 121,
+                    "total": 132,
+                    "P": 91.67,
+                    "PI": 83.34
+                },
+                "grouped": {
+                    "correct": 341,
+                    "total": 366,
+                    "P": 93.17,
+                    "PI": 86.34
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 69,
+                        "total": 69,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 176,
+                        "total": 176,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 52,
+                        "total": 63,
+                        "P": 82.54,
+                        "PI": 65.08
+                    },
+                    "grouped": {
+                        "correct": 165,
+                        "total": 190,
+                        "P": 86.84,
+                        "PI": 73.68
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 1,
+                "groupMax": 1,
+                "cluster": 2,
+                "base": 5,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 491,
+                    "total": 498,
+                    "P": 98.59,
+                    "PI": 97.18
+                },
+                "singles": {
+                    "correct": 98,
+                    "total": 105,
+                    "P": 93.33,
+                    "PI": 86.66
+                },
+                "grouped": {
+                    "correct": 393,
+                    "total": 393,
+                    "P": 100.0,
+                    "PI": 100.0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 58,
+                        "total": 58,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 194,
+                        "total": 194,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 40,
+                        "total": 47,
+                        "P": 85.11,
+                        "PI": 70.22
+                    },
+                    "grouped": {
+                        "correct": 199,
+                        "total": 199,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 1,
+                "groupMax": 1,
+                "cluster": 2,
+                "base": 2,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 487,
+                    "total": 498,
+                    "P": 97.79,
+                    "PI": 95.58
+                },
+                "singles": {
+                    "correct": 120,
+                    "total": 131,
+                    "P": 91.6,
+                    "PI": 83.2
+                },
+                "grouped": {
+                    "correct": 367,
+                    "total": 367,
+                    "P": 100.0,
+                    "PI": 100.0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 74,
+                        "total": 74,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 206,
+                        "total": 206,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 46,
+                        "total": 57,
+                        "P": 80.7,
+                        "PI": 61.4
+                    },
+                    "grouped": {
+                        "correct": 161,
+                        "total": 161,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 1,
+                "groupMax": 1,
+                "cluster": 2,
+                "base": 1.9,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 487,
+                    "total": 498,
+                    "P": 97.79,
+                    "PI": 95.58
+                },
+                "singles": {
+                    "correct": 147,
+                    "total": 158,
+                    "P": 93.04,
+                    "PI": 86.08
+                },
+                "grouped": {
+                    "correct": 340,
+                    "total": 340,
+                    "P": 100.0,
+                    "PI": 100.0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 68,
+                        "total": 68,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 188,
+                        "total": 188,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 79,
+                        "total": 90,
+                        "P": 87.78,
+                        "PI": 75.56
+                    },
+                    "grouped": {
+                        "correct": 152,
+                        "total": 152,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 1,
+                "groupMax": 1,
+                "cluster": 2,
+                "base": 1.5,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 485,
+                    "total": 498,
+                    "P": 97.39,
+                    "PI": 94.78
+                },
+                "singles": {
+                    "correct": 121,
+                    "total": 134,
+                    "P": 90.3,
+                    "PI": 80.6
+                },
+                "grouped": {
+                    "correct": 364,
+                    "total": 364,
+                    "P": 100.0,
+                    "PI": 100.0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 64,
+                        "total": 64,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 210,
+                        "total": 210,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 57,
+                        "total": 70,
+                        "P": 81.43,
+                        "PI": 62.86
+                    },
+                    "grouped": {
+                        "correct": 154,
+                        "total": 154,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 1,
+                "groupMax": 1,
+                "cluster": 2,
+                "base": 1.01,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 485,
+                    "total": 498,
+                    "P": 97.39,
+                    "PI": 94.78
+                },
+                "singles": {
+                    "correct": 103,
+                    "total": 116,
+                    "P": 88.79,
+                    "PI": 77.58
+                },
+                "grouped": {
+                    "correct": 382,
+                    "total": 382,
+                    "P": 100.0,
+                    "PI": 100.0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 58,
+                        "total": 58,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 177,
+                        "total": 177,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 45,
+                        "total": 58,
+                        "P": 77.59,
+                        "PI": 55.18
+                    },
+                    "grouped": {
+                        "correct": 205,
+                        "total": 205,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 4,
+                "groupMax": 8,
+                "cluster": 2,
+                "base": 5,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 409,
+                    "total": 498,
+                    "P": 82.13,
+                    "PI": 64.26
+                },
+                "singles": {
+                    "correct": 98,
+                    "total": 122,
+                    "P": 80.33,
+                    "PI": 60.66
+                },
+                "grouped": {
+                    "correct": 311,
+                    "total": 376,
+                    "P": 82.71,
+                    "PI": 65.42
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 59,
+                        "total": 59,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 163,
+                        "total": 163,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 39,
+                        "total": 63,
+                        "P": 61.9,
+                        "PI": 23.8
+                    },
+                    "grouped": {
+                        "correct": 148,
+                        "total": 213,
+                        "P": 69.48,
+                        "PI": 38.96
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 4,
+                "groupMax": 8,
+                "cluster": 2,
+                "base": 2,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 435,
+                    "total": 498,
+                    "P": 87.35,
+                    "PI": 74.7
+                },
+                "singles": {
+                    "correct": 112,
+                    "total": 132,
+                    "P": 84.85,
+                    "PI": 69.7
+                },
+                "grouped": {
+                    "correct": 323,
+                    "total": 366,
+                    "P": 88.25,
+                    "PI": 76.5
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 76,
+                        "total": 76,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 207,
+                        "total": 207,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 36,
+                        "total": 56,
+                        "P": 64.29,
+                        "PI": 28.58
+                    },
+                    "grouped": {
+                        "correct": 116,
+                        "total": 159,
+                        "P": 72.96,
+                        "PI": 45.92
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 4,
+                "groupMax": 8,
+                "cluster": 2,
+                "base": 1.9,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 437,
+                    "total": 498,
+                    "P": 87.75,
+                    "PI": 75.5
+                },
+                "singles": {
+                    "correct": 115,
+                    "total": 123,
+                    "P": 93.5,
+                    "PI": 87.0
+                },
+                "grouped": {
+                    "correct": 322,
+                    "total": 375,
+                    "P": 85.87,
+                    "PI": 71.74
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 62,
+                        "total": 62,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 187,
+                        "total": 187,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 53,
+                        "total": 61,
+                        "P": 86.89,
+                        "PI": 73.78
+                    },
+                    "grouped": {
+                        "correct": 135,
+                        "total": 188,
+                        "P": 71.81,
+                        "PI": 43.62
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 4,
+                "groupMax": 8,
+                "cluster": 2,
+                "base": 1.5,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 457,
+                    "total": 498,
+                    "P": 91.77,
+                    "PI": 83.54
+                },
+                "singles": {
+                    "correct": 120,
+                    "total": 134,
+                    "P": 89.55,
+                    "PI": 79.1
+                },
+                "grouped": {
+                    "correct": 337,
+                    "total": 364,
+                    "P": 92.58,
+                    "PI": 85.16
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 68,
+                        "total": 68,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 200,
+                        "total": 200,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 52,
+                        "total": 66,
+                        "P": 78.79,
+                        "PI": 57.58
+                    },
+                    "grouped": {
+                        "correct": 137,
+                        "total": 164,
+                        "P": 83.54,
+                        "PI": 67.08
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 4,
+                "groupMax": 8,
+                "cluster": 2,
+                "base": 1.01,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 454,
+                    "total": 498,
+                    "P": 91.16,
+                    "PI": 82.32
+                },
+                "singles": {
+                    "correct": 108,
+                    "total": 118,
+                    "P": 91.53,
+                    "PI": 83.06
+                },
+                "grouped": {
+                    "correct": 346,
+                    "total": 380,
+                    "P": 91.05,
+                    "PI": 82.1
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 59,
+                        "total": 59,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 221,
+                        "total": 221,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 49,
+                        "total": 59,
+                        "P": 83.05,
+                        "PI": 66.1
+                    },
+                    "grouped": {
+                        "correct": 125,
+                        "total": 159,
+                        "P": 78.62,
+                        "PI": 57.24
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 4,
+                "cluster": 5,
+                "base": 5,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 492,
+                    "total": 498,
+                    "P": 98.8,
+                    "PI": 97.6
+                },
+                "singles": {
+                    "correct": 20,
+                    "total": 22,
+                    "P": 90.91,
+                    "PI": 81.82
+                },
+                "grouped": {
+                    "correct": 472,
+                    "total": 476,
+                    "P": 99.16,
+                    "PI": 98.32
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 16,
+                        "total": 16,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 294,
+                        "total": 294,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 4,
+                        "total": 6,
+                        "P": 66.67,
+                        "PI": 33.34
+                    },
+                    "grouped": {
+                        "correct": 178,
+                        "total": 182,
+                        "P": 97.8,
+                        "PI": 95.6
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 4,
+                "cluster": 5,
+                "base": 2,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 480,
+                    "total": 498,
+                    "P": 96.39,
+                    "PI": 92.78
+                },
+                "singles": {
+                    "correct": 9,
+                    "total": 13,
+                    "P": 69.23,
+                    "PI": 38.46
+                },
+                "grouped": {
+                    "correct": 471,
+                    "total": 485,
+                    "P": 97.11,
+                    "PI": 94.22
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 4,
+                        "total": 4,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 254,
+                        "total": 254,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 5,
+                        "total": 9,
+                        "P": 55.56,
+                        "PI": 11.12
+                    },
+                    "grouped": {
+                        "correct": 217,
+                        "total": 231,
+                        "P": 93.94,
+                        "PI": 87.88
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 4,
+                "cluster": 5,
+                "base": 1.9,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 478,
+                    "total": 498,
+                    "P": 95.98,
+                    "PI": 91.96
+                },
+                "singles": {
+                    "correct": 11,
+                    "total": 16,
+                    "P": 68.75,
+                    "PI": 37.5
+                },
+                "grouped": {
+                    "correct": 467,
+                    "total": 482,
+                    "P": 96.89,
+                    "PI": 93.78
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 6,
+                        "total": 6,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 212,
+                        "total": 212,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 5,
+                        "total": 10,
+                        "P": 50.0,
+                        "PI": 0.0
+                    },
+                    "grouped": {
+                        "correct": 255,
+                        "total": 270,
+                        "P": 94.44,
+                        "PI": 88.88
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 4,
+                "cluster": 5,
+                "base": 1.5,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 491,
+                    "total": 498,
+                    "P": 98.59,
+                    "PI": 97.18
+                },
+                "singles": {
+                    "correct": 15,
+                    "total": 19,
+                    "P": 78.95,
+                    "PI": 57.9
+                },
+                "grouped": {
+                    "correct": 476,
+                    "total": 479,
+                    "P": 99.37,
+                    "PI": 98.74
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 12,
+                        "total": 12,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 248,
+                        "total": 248,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 3,
+                        "total": 7,
+                        "P": 42.86,
+                        "PI": -14.28
+                    },
+                    "grouped": {
+                        "correct": 228,
+                        "total": 231,
+                        "P": 98.7,
+                        "PI": 97.4
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 4,
+                "cluster": 5,
+                "base": 1.01,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 487,
+                    "total": 498,
+                    "P": 97.79,
+                    "PI": 95.58
+                },
+                "singles": {
+                    "correct": 16,
+                    "total": 16,
+                    "P": 100.0,
+                    "PI": 100.0
+                },
+                "grouped": {
+                    "correct": 471,
+                    "total": 482,
+                    "P": 97.72,
+                    "PI": 95.44
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 8,
+                        "total": 8,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 194,
+                        "total": 194,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 8,
+                        "total": 8,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 277,
+                        "total": 288,
+                        "P": 96.18,
+                        "PI": 92.36
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "cluster": 5,
+                "base": 5,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 481,
+                    "total": 498,
+                    "P": 96.59,
+                    "PI": 93.18
+                },
+                "singles": {
+                    "correct": 11,
+                    "total": 16,
+                    "P": 68.75,
+                    "PI": 37.5
+                },
+                "grouped": {
+                    "correct": 470,
+                    "total": 482,
+                    "P": 97.51,
+                    "PI": 95.02
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 6,
+                        "total": 6,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 267,
+                        "total": 267,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 5,
+                        "total": 10,
+                        "P": 50.0,
+                        "PI": 0.0
+                    },
+                    "grouped": {
+                        "correct": 203,
+                        "total": 215,
+                        "P": 94.42,
+                        "PI": 88.84
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "cluster": 5,
+                "base": 2,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 471,
+                    "total": 498,
+                    "P": 94.58,
+                    "PI": 89.16
+                },
+                "singles": {
+                    "correct": 22,
+                    "total": 29,
+                    "P": 75.86,
+                    "PI": 51.72
+                },
+                "grouped": {
+                    "correct": 449,
+                    "total": 469,
+                    "P": 95.74,
+                    "PI": 91.48
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 14,
+                        "total": 14,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 235,
+                        "total": 235,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 8,
+                        "total": 15,
+                        "P": 53.33,
+                        "PI": 6.66
+                    },
+                    "grouped": {
+                        "correct": 214,
+                        "total": 234,
+                        "P": 91.45,
+                        "PI": 82.9
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "cluster": 5,
+                "base": 1.9,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 478,
+                    "total": 498,
+                    "P": 95.98,
+                    "PI": 91.96
+                },
+                "singles": {
+                    "correct": 18,
+                    "total": 21,
+                    "P": 85.71,
+                    "PI": 71.42
+                },
+                "grouped": {
+                    "correct": 460,
+                    "total": 477,
+                    "P": 96.44,
+                    "PI": 92.88
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 12,
+                        "total": 12,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 236,
+                        "total": 236,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 6,
+                        "total": 9,
+                        "P": 66.67,
+                        "PI": 33.34
+                    },
+                    "grouped": {
+                        "correct": 224,
+                        "total": 241,
+                        "P": 92.95,
+                        "PI": 85.9
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "cluster": 5,
+                "base": 1.5,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 486,
+                    "total": 498,
+                    "P": 97.59,
+                    "PI": 95.18
+                },
+                "singles": {
+                    "correct": 20,
+                    "total": 22,
+                    "P": 90.91,
+                    "PI": 81.82
+                },
+                "grouped": {
+                    "correct": 466,
+                    "total": 476,
+                    "P": 97.9,
+                    "PI": 95.8
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 14,
+                        "total": 14,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 246,
+                        "total": 246,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 6,
+                        "total": 8,
+                        "P": 75.0,
+                        "PI": 50.0
+                    },
+                    "grouped": {
+                        "correct": 220,
+                        "total": 230,
+                        "P": 95.65,
+                        "PI": 91.3
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 2,
+                "groupMax": 6,
+                "cluster": 5,
+                "base": 1.01,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 483,
+                    "total": 498,
+                    "P": 96.99,
+                    "PI": 93.98
+                },
+                "singles": {
+                    "correct": 19,
+                    "total": 24,
+                    "P": 79.17,
+                    "PI": 58.34
+                },
+                "grouped": {
+                    "correct": 464,
+                    "total": 474,
+                    "P": 97.89,
+                    "PI": 95.78
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 13,
+                        "total": 13,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 273,
+                        "total": 273,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 6,
+                        "total": 11,
+                        "P": 54.55,
+                        "PI": 9.1
+                    },
+                    "grouped": {
+                        "correct": 191,
+                        "total": 201,
+                        "P": 95.02,
+                        "PI": 90.04
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 1,
+                "groupMax": 1,
+                "cluster": 5,
+                "base": 5,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 496,
+                    "total": 498,
+                    "P": 99.6,
+                    "PI": 99.2
+                },
+                "singles": {
+                    "correct": 22,
+                    "total": 24,
+                    "P": 91.67,
+                    "PI": 83.34
+                },
+                "grouped": {
+                    "correct": 474,
+                    "total": 474,
+                    "P": 100.0,
+                    "PI": 100.0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 11,
+                        "total": 11,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 255,
+                        "total": 255,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 11,
+                        "total": 13,
+                        "P": 84.62,
+                        "PI": 69.24
+                    },
+                    "grouped": {
+                        "correct": 219,
+                        "total": 219,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 1,
+                "groupMax": 1,
+                "cluster": 5,
+                "base": 2,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 497,
+                    "total": 498,
+                    "P": 99.8,
+                    "PI": 99.6
+                },
+                "singles": {
+                    "correct": 26,
+                    "total": 27,
+                    "P": 96.3,
+                    "PI": 92.6
+                },
+                "grouped": {
+                    "correct": 471,
+                    "total": 471,
+                    "P": 100.0,
+                    "PI": 100.0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 19,
+                        "total": 19,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 239,
+                        "total": 239,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 7,
+                        "total": 8,
+                        "P": 87.5,
+                        "PI": 75.0
+                    },
+                    "grouped": {
+                        "correct": 232,
+                        "total": 232,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 1,
+                "groupMax": 1,
+                "cluster": 5,
+                "base": 1.9,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 495,
+                    "total": 498,
+                    "P": 99.4,
+                    "PI": 98.8
+                },
+                "singles": {
+                    "correct": 26,
+                    "total": 29,
+                    "P": 89.66,
+                    "PI": 79.32
+                },
+                "grouped": {
+                    "correct": 469,
+                    "total": 469,
+                    "P": 100.0,
+                    "PI": 100.0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 16,
+                        "total": 16,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 236,
+                        "total": 236,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 10,
+                        "total": 13,
+                        "P": 76.92,
+                        "PI": 53.84
+                    },
+                    "grouped": {
+                        "correct": 233,
+                        "total": 233,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 1,
+                "groupMax": 1,
+                "cluster": 5,
+                "base": 1.5,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 495,
+                    "total": 498,
+                    "P": 99.4,
+                    "PI": 98.8
+                },
+                "singles": {
+                    "correct": 23,
+                    "total": 26,
+                    "P": 88.46,
+                    "PI": 76.92
+                },
+                "grouped": {
+                    "correct": 472,
+                    "total": 472,
+                    "P": 100.0,
+                    "PI": 100.0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 10,
+                        "total": 10,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 222,
+                        "total": 222,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 13,
+                        "total": 16,
+                        "P": 81.25,
+                        "PI": 62.5
+                    },
+                    "grouped": {
+                        "correct": 250,
+                        "total": 250,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 1,
+                "groupMax": 1,
+                "cluster": 5,
+                "base": 1.01,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 496,
+                    "total": 498,
+                    "P": 99.6,
+                    "PI": 99.2
+                },
+                "singles": {
+                    "correct": 11,
+                    "total": 13,
+                    "P": 84.62,
+                    "PI": 69.24
+                },
+                "grouped": {
+                    "correct": 485,
+                    "total": 485,
+                    "P": 100.0,
+                    "PI": 100.0
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 8,
+                        "total": 8,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 283,
+                        "total": 283,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 3,
+                        "total": 5,
+                        "P": 60.0,
+                        "PI": 20.0
+                    },
+                    "grouped": {
+                        "correct": 202,
+                        "total": 202,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 4,
+                "groupMax": 8,
+                "cluster": 5,
+                "base": 5,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 469,
+                    "total": 498,
+                    "P": 94.18,
+                    "PI": 88.36
+                },
+                "singles": {
+                    "correct": 10,
+                    "total": 15,
+                    "P": 66.67,
+                    "PI": 33.34
+                },
+                "grouped": {
+                    "correct": 459,
+                    "total": 483,
+                    "P": 95.03,
+                    "PI": 90.06
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 7,
+                        "total": 7,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 274,
+                        "total": 274,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 3,
+                        "total": 8,
+                        "P": 37.5,
+                        "PI": -25.0
+                    },
+                    "grouped": {
+                        "correct": 185,
+                        "total": 209,
+                        "P": 88.52,
+                        "PI": 77.04
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 4,
+                "groupMax": 8,
+                "cluster": 5,
+                "base": 2,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 462,
+                    "total": 498,
+                    "P": 92.77,
+                    "PI": 85.54
+                },
+                "singles": {
+                    "correct": 23,
+                    "total": 25,
+                    "P": 92.0,
+                    "PI": 84.0
+                },
+                "grouped": {
+                    "correct": 439,
+                    "total": 473,
+                    "P": 92.81,
+                    "PI": 85.62
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 12,
+                        "total": 12,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 264,
+                        "total": 264,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 11,
+                        "total": 13,
+                        "P": 84.62,
+                        "PI": 69.24
+                    },
+                    "grouped": {
+                        "correct": 175,
+                        "total": 209,
+                        "P": 83.73,
+                        "PI": 67.46
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 4,
+                "groupMax": 8,
+                "cluster": 5,
+                "base": 1.9,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 467,
+                    "total": 498,
+                    "P": 93.78,
+                    "PI": 87.56
+                },
+                "singles": {
+                    "correct": 16,
+                    "total": 18,
+                    "P": 88.89,
+                    "PI": 77.78
+                },
+                "grouped": {
+                    "correct": 451,
+                    "total": 480,
+                    "P": 93.96,
+                    "PI": 87.92
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 5,
+                        "total": 5,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 216,
+                        "total": 216,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 11,
+                        "total": 13,
+                        "P": 84.62,
+                        "PI": 69.24
+                    },
+                    "grouped": {
+                        "correct": 235,
+                        "total": 264,
+                        "P": 89.02,
+                        "PI": 78.04
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 4,
+                "groupMax": 8,
+                "cluster": 5,
+                "base": 1.5,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 468,
+                    "total": 498,
+                    "P": 93.98,
+                    "PI": 87.96
+                },
+                "singles": {
+                    "correct": 17,
+                    "total": 21,
+                    "P": 80.95,
+                    "PI": 61.9
+                },
+                "grouped": {
+                    "correct": 451,
+                    "total": 477,
+                    "P": 94.55,
+                    "PI": 89.1
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 14,
+                        "total": 14,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 271,
+                        "total": 271,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 3,
+                        "total": 7,
+                        "P": 42.86,
+                        "PI": -14.28
+                    },
+                    "grouped": {
+                        "correct": 180,
+                        "total": 206,
+                        "P": 87.38,
+                        "PI": 74.76
+                    }
+                }
+            }
+        },
+        {
+            "params": {
+                "groupMin": 4,
+                "groupMax": 8,
+                "cluster": 5,
+                "base": 1.01,
+                "numPoints": 500
+            },
+            "attack": {
+                "all": {
+                    "correct": 453,
+                    "total": 498,
+                    "P": 90.96,
+                    "PI": 81.92
+                },
+                "singles": {
+                    "correct": 25,
+                    "total": 34,
+                    "P": 73.53,
+                    "PI": 47.06
+                },
+                "grouped": {
+                    "correct": 428,
+                    "total": 464,
+                    "P": 92.24,
+                    "PI": 84.48
+                },
+                "victimIn": {
+                    "singles": {
+                        "correct": 9,
+                        "total": 9,
+                        "P": 100.0,
+                        "PI": 100.0
+                    },
+                    "grouped": {
+                        "correct": 254,
+                        "total": 254,
+                        "P": 100.0,
+                        "PI": 100.0
+                    }
+                },
+                "victimOut": {
+                    "singles": {
+                        "correct": 16,
+                        "total": 25,
+                        "P": 64.0,
+                        "PI": 28.0
+                    },
+                    "grouped": {
+                        "correct": 174,
+                        "total": 210,
+                        "P": 82.86,
+                        "PI": 65.72
+                    }
+                }
+            }
+        }
+    ],
+    "selected": {
+        "groupMin": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            4,
+            4,
+            4,
+            4,
+            4,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            4,
+            4,
+            4,
+            4,
+            4,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            4,
+            4,
+            4,
+            4,
+            4
+        ],
+        "groupMax": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            4,
+            4,
+            4,
+            4,
+            4,
+            6,
+            6,
+            6,
+            6,
+            6,
+            1,
+            1,
+            1,
+            1,
+            1,
+            8,
+            8,
+            8,
+            8,
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            6,
+            6,
+            6,
+            6,
+            1,
+            1,
+            1,
+            1,
+            1,
+            8,
+            8,
+            8,
+            8,
+            8,
+            4,
+            4,
+            4,
+            4,
+            4,
+            6,
+            6,
+            6,
+            6,
+            6,
+            1,
+            1,
+            1,
+            1,
+            1,
+            8,
+            8,
+            8,
+            8,
+            8
+        ],
+        "cluster": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+        ],
+        "base": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            5,
+            2,
+            1.9,
+            1.5,
+            1.01,
+            5,
+            2,
+            1.9,
+            1.5,
+            1.01,
+            5,
+            2,
+            1.9,
+            1.5,
+            1.01,
+            5,
+            2,
+            1.9,
+            1.5,
+            1.01,
+            5,
+            2,
+            1.9,
+            1.5,
+            1.01,
+            5,
+            1.9,
+            1.5,
+            1.01,
+            5,
+            2,
+            1.9,
+            1.5,
+            1.01,
+            5,
+            2,
+            1.9,
+            1.5,
+            1.01,
+            5,
+            2,
+            1.9,
+            1.5,
+            1.01,
+            5,
+            2,
+            1.9,
+            1.5,
+            1.01,
+            5,
+            2,
+            1.9,
+            1.5,
+            1.01,
+            5,
+            2,
+            1.9,
+            1.5,
+            1.01
+        ],
+        "numPoints": [
+            500,
+            501,
+            502,
+            503,
+            504,
+            505,
+            506,
+            507,
+            508,
+            509,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500,
+            500
+        ],
+        "P": [
+            87.15,
+            87.98,
+            88.8,
+            87.43,
+            92.43,
+            88.87,
+            89.09,
+            91.49,
+            87.55,
+            89.74,
+            82.13,
+            85.14,
+            87.75,
+            88.76,
+            91.37,
+            84.34,
+            89.76,
+            89.16,
+            88.15,
+            92.77,
+            92.37,
+            91.57,
+            90.56,
+            91.97,
+            92.37,
+            75.9,
+            86.14,
+            87.75,
+            88.15,
+            91.16,
+            91.77,
+            87.75,
+            84.94,
+            90.76,
+            88.15,
+            86.55,
+            87.95,
+            90.56,
+            92.77,
+            98.59,
+            97.79,
+            97.79,
+            97.39,
+            97.39,
+            82.13,
+            87.35,
+            87.75,
+            91.77,
+            91.16,
+            98.8,
+            96.39,
+            95.98,
+            98.59,
+            97.79,
+            96.59,
+            94.58,
+            95.98,
+            97.59,
+            96.99,
+            99.6,
+            99.8,
+            99.4,
+            99.4,
+            99.6,
+            94.18,
+            92.77,
+            93.78,
+            93.98,
+            90.96
+        ],
+        "PI": [
+            74.3,
+            75.96,
+            77.6,
+            74.86,
+            84.86,
+            77.74,
+            78.18,
+            82.98,
+            75.1,
+            79.48,
+            64.26,
+            70.28,
+            75.5,
+            77.52,
+            82.74,
+            68.68,
+            79.52,
+            78.32,
+            76.3,
+            85.54,
+            84.74,
+            83.14,
+            81.12,
+            83.94,
+            84.74,
+            51.8,
+            72.28,
+            75.5,
+            76.3,
+            82.32,
+            83.54,
+            75.5,
+            69.88,
+            81.52,
+            76.3,
+            73.1,
+            75.9,
+            81.12,
+            85.54,
+            97.18,
+            95.58,
+            95.58,
+            94.78,
+            94.78,
+            64.26,
+            74.7,
+            75.5,
+            83.54,
+            82.32,
+            97.6,
+            92.78,
+            91.96,
+            97.18,
+            95.58,
+            93.18,
+            89.16,
+            91.96,
+            95.18,
+            93.98,
+            99.2,
+            99.6,
+            98.8,
+            98.8,
+            99.2,
+            88.36,
+            85.54,
+            87.56,
+            87.96,
+            81.92
+        ],
+        "singP": [
+            80.45,
+            79.84,
+            82.58,
+            85.0,
+            83.72,
+            86.61,
+            82.22,
+            85.21,
+            79.26,
+            84.07,
+            82.13,
+            85.14,
+            87.75,
+            88.76,
+            91.37,
+            84.48,
+            89.76,
+            89.16,
+            88.15,
+            92.74,
+            92.31,
+            91.57,
+            90.52,
+            91.97,
+            92.37,
+            75.9,
+            86.44,
+            87.75,
+            88.15,
+            91.13,
+            84.07,
+            77.42,
+            78.69,
+            81.97,
+            82.64,
+            77.78,
+            81.3,
+            77.24,
+            91.67,
+            93.33,
+            91.6,
+            93.04,
+            90.3,
+            88.79,
+            80.33,
+            84.85,
+            93.5,
+            89.55,
+            91.53,
+            90.91,
+            69.23,
+            68.75,
+            78.95,
+            100.0,
+            68.75,
+            75.86,
+            85.71,
+            90.91,
+            79.17,
+            91.67,
+            96.3,
+            89.66,
+            88.46,
+            84.62,
+            66.67,
+            92.0,
+            88.89,
+            80.95,
+            73.53
+        ],
+        "singPI": [
+            60.9,
+            59.68,
+            65.16,
+            70.0,
+            67.44,
+            73.22,
+            64.44,
+            70.42,
+            58.52,
+            68.14,
+            64.26,
+            70.28,
+            75.5,
+            77.52,
+            82.74,
+            68.96,
+            79.52,
+            78.32,
+            76.3,
+            85.48,
+            84.62,
+            83.14,
+            81.04,
+            83.94,
+            84.74,
+            51.8,
+            72.88,
+            75.5,
+            76.3,
+            82.26,
+            68.14,
+            54.84,
+            57.38,
+            63.94,
+            65.28,
+            55.56,
+            62.6,
+            54.48,
+            83.34,
+            86.66,
+            83.2,
+            86.08,
+            80.6,
+            77.58,
+            60.66,
+            69.7,
+            87.0,
+            79.1,
+            83.06,
+            81.82,
+            38.46,
+            37.5,
+            57.9,
+            100.0,
+            37.5,
+            51.72,
+            71.42,
+            81.82,
+            58.34,
+            83.34,
+            92.6,
+            79.32,
+            76.92,
+            69.24,
+            33.34,
+            84.0,
+            77.78,
+            61.9,
+            47.06
+        ],
+        "groupP": [
+            89.59,
+            90.81,
+            91.03,
+            88.19,
+            95.44,
+            89.51,
+            91.6,
+            93.94,
+            90.57,
+            91.37,
+            0,
+            0,
+            0,
+            0,
+            0,
+            50.0,
+            0,
+            0,
+            0,
+            100.0,
+            100.0,
+            0,
+            100.0,
+            0,
+            0,
+            0,
+            50.0,
+            0,
+            0,
+            100.0,
+            94.03,
+            91.18,
+            86.97,
+            93.62,
+            90.4,
+            89.52,
+            90.13,
+            94.93,
+            93.17,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            82.71,
+            88.25,
+            85.87,
+            92.58,
+            91.05,
+            99.16,
+            97.11,
+            96.89,
+            99.37,
+            97.72,
+            97.51,
+            95.74,
+            96.44,
+            97.9,
+            97.89,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            95.03,
+            92.81,
+            93.96,
+            94.55,
+            92.24
+        ],
+        "groupPI": [
+            79.18,
+            81.62,
+            82.06,
+            76.38,
+            90.88,
+            79.02,
+            83.2,
+            87.88,
+            81.14,
+            82.74,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.0,
+            0,
+            0,
+            0,
+            100.0,
+            100.0,
+            0,
+            100.0,
+            0,
+            0,
+            0,
+            0.0,
+            0,
+            0,
+            100.0,
+            88.06,
+            82.36,
+            73.94,
+            87.24,
+            80.8,
+            79.04,
+            80.26,
+            89.86,
+            86.34,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            65.42,
+            76.5,
+            71.74,
+            85.16,
+            82.1,
+            98.32,
+            94.22,
+            93.78,
+            98.74,
+            95.44,
+            95.02,
+            91.48,
+            92.88,
+            95.8,
+            95.78,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            100.0,
+            90.06,
+            85.62,
+            87.92,
+            89.1,
+            84.48
+        ]
+    }
+}
