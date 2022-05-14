@@ -1,3 +1,4 @@
+import os
 
 hosts = [ 'pinky07',
           'pinky08',
@@ -16,3 +17,4 @@ with open('exall.sh', 'w') as f:
     for host in hosts:
         f.write(f"echo '{host}'\n")
         f.write(f"ssh -i ~/.ssh/{key} {login}@{host} $1\n")
+os.system('chmod 777 exall.sh')
