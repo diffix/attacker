@@ -28,6 +28,4 @@ with open('newHost.sh', 'w') as f:
     f.write("./exall.sh 'python3 -m venv ~/.venv'\n")
     f.write("./exall.sh 'source .venv/bin/activate'\n")
     f.write("./exall.sh 'python3 -m pip install rpyc'\n")
-    f.write("./exall.sh 'mkdir attacker'\n")
-    f.write("./exall.sh 'git clone https://github.com/diffix/attacker.git'\n")
 os.system('chmod 777 newHost.sh')
