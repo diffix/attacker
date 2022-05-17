@@ -62,6 +62,6 @@ os.system(f"scp killRpyc.sh {login}@{fileSystemMachine}:")
 
 # Script to restart RPYC nodes
 with open('restart.sh', 'w') as f:
-    f.write("./exall.sh 'killRpyc.sh'\n")
-    f.write("./exall.sh 'startRpyc.sh'\n")
+    f.write("./exall.sh '~/.killRpyc.sh'\n")
+    f.write("./exall.sh '~/.startRpyc.sh'\n")
 os.system('chmod 777 restart.sh')
