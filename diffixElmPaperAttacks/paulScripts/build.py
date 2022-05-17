@@ -7,9 +7,22 @@ hosts = [ 'pinky07',
           'pinky11'
 ]
 
+# One port per rypc server
+ports = [
+    34880,
+    34881,
+    34882,
+    34883,
+    34884,
+    34885,
+    34886,
+    34887,
+]
+
 login = 'francis'
 key = 'id_rsa_root'
 localStorage = '/local/francis'
+fileSystemMachine = 'contact'
 
 # Build basic execution script
 # echo 'paul01'
@@ -29,3 +42,26 @@ with open('newHost.sh', 'w') as f:
     f.write("./exall.sh 'source .venv/bin/activate'\n")
     f.write("./exall.sh 'python3 -m pip install rpyc'\n")
 os.system('chmod 777 newHost.sh')
+
+# Script to start RPYC nodes
+with open('startRpyc.sh', 'w') as f:
+    for port in ports:
+        f.write(f"nohup rpyc_classic.py --host 0.0.0.0 --port {port} &> {localStorage}/{port}.txt & \n")
+    f.write("echo done\n")
+    f.write("exit 0\n")
+os.system('chmod 777 startRpyc.sh')
+
+# Script to kill RPYC nodes
+with open('killRpyc.sh', 'w') as f:
+    f.write("kill -9 $(pgrep -f rpyc_classic.py) \n")
+os.system('chmod 777 killRpyc.sh')
+
+# Move the start and kill scripts over to the distributed file system (via contact)
+os.system(f"scp startRpyc.sh {login}@{fileSystemMachine}:")
+os.system(f"scp killRpyc.sh {login}@{fileSystemMachine}:")
+
+# Script to restart RPYC nodes
+with open('restart.sh', 'w') as f:
+    f.write("./exall.sh 'paul/killRpyc.sh'")
+    f.write("./exall.sh 'paul/startRpyc.sh'")
+os.system('chmod 777 restart.sh')
