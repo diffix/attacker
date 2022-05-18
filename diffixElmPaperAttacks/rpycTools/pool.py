@@ -27,16 +27,17 @@ class pool():
             self.machines = [{'host':'local','port':0}]
             return
         if not hostsAndPorts:
+            # These hosts all must have the same port list
             hostsAndPorts = [
-                {'host':'paul01', 'portLow':20000, 'portHigh':20019},
-                {'host':'paul02', 'portLow':20000, 'portHigh':20019},
-                {'host':'paul03', 'portLow':20000, 'portHigh':20019},
-                {'host':'paul04', 'portLow':20000, 'portHigh':20019},
-                {'host':'paul05', 'portLow':20000, 'portHigh':20019},
-                {'host':'paul06', 'portLow':20000, 'portHigh':20019},
-                {'host':'paul07', 'portLow':20000, 'portHigh':20019},
-                {'host':'paul08', 'portLow':20000, 'portHigh':20019},
-                {'host':'paul09', 'portLow':20000, 'portHigh':20019},
+                {'host':'paul01', 'portLow':34880, 'portHigh':34887},
+                {'host':'paul02', 'portLow':34880, 'portHigh':34887},
+                {'host':'paul03', 'portLow':34880, 'portHigh':34887},
+                {'host':'paul04', 'portLow':34880, 'portHigh':34887},
+                {'host':'paul05', 'portLow':34880, 'portHigh':34887},
+                {'host':'paul06', 'portLow':34880, 'portHigh':34887},
+                {'host':'paul07', 'portLow':34880, 'portHigh':34887},
+                {'host':'paul08', 'portLow':34880, 'portHigh':34887},
+                {'host':'paul09', 'portLow':34880, 'portHigh':34887},
             ]
         self.machines = []
         for thing in hostsAndPorts:
@@ -45,6 +46,20 @@ class pool():
                 self.machines.append({'host':host,'port':port})
         random.shuffle(self.machines)
         self.inUse = []
+
+    def getHostList(self):
+        hosts = []
+        for thing in self.hostAndPorts:
+            hosts.append(thing['host'])
+        return hosts
+
+    def getPortList(self):
+        ''' This assumes that all hosts have the same port list '''
+        ports = []
+        for thing in self.hostAndPorts:
+            for port in range(thing['portLow'],thing['portHigh']+1):
+                ports.append(port)
+            return ports
 
     def getFreeMachine(self):
         if len(self.machines) > 0:

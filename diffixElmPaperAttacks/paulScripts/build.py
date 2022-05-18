@@ -1,23 +1,14 @@
 import os
+from pathlib import Path
+filePath = os.path.abspath(__file__)
+parDir = os.path.abspath(os.path.join(filePath, os.pardir, os.pardir))
+sys.path.append(parDir)
+import rpycTools.pool
 
-hosts = [ 'pinky07',
-          'pinky08',
-          'pinky09',
-          'pinky10',
-          'pinky11'
-]
-
-# One port per rypc server
-ports = [
-    34880,
-    34881,
-    34882,
-    34883,
-    34884,
-    34885,
-    34886,
-    34887,
-]
+# Get hosts and ports from rpycTools.pool
+pm = rpycTools.pool.pool()
+hosts = pm.getHostList()
+ports = pm.getPortList()
 
 login = 'francis'
 key = 'id_rsa_root'
