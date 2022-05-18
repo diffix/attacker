@@ -85,17 +85,7 @@ if __name__ == "__main__":
     dh.addSatisfyCriteria('CR',0.0001,'lt')
     if runLocal:
         att = outlierBucket.betaAttackClass.betaAttack()
-    hostsAndPorts = [
-                {'host':'paul03', 'portLow':20000, 'portHigh':20019},
-                {'host':'paul04', 'portLow':20000, 'portHigh':20019},
-                {'host':'paul04', 'portLow':20000, 'portHigh':20019},
-                {'host':'paul05', 'portLow':20000, 'portHigh':20019},
-                {'host':'paul06', 'portLow':20000, 'portHigh':20019},
-                {'host':'paul07', 'portLow':20000, 'portHigh':20019},
-                {'host':'paul08', 'portLow':20000, 'portHigh':20019},
-                {'host':'paul09', 'portLow':20000, 'portHigh':20019},
-    ]
-    pm = rpycTools.pool.pool(hostsAndPorts=hostsAndPorts,runLocal=runLocal)
+    pm = rpycTools.pool.pool(runLocal=runLocal)
     ''' The 0th round has no claim threshold (claimThresh=None). The 1st round starts with
         claimThresh=1, and then subsequent rounds set claimThresh based on the value of the
         prior one. Which unfortunately means that we need to wait for the prior round to
