@@ -29,15 +29,11 @@ class pool():
         if not hostsAndPorts:
             # These hosts all must have the same port list
             hostsAndPorts = [
-                {'host':'paul01', 'portLow':34880, 'portHigh':34887},
-                {'host':'paul02', 'portLow':34880, 'portHigh':34887},
-                {'host':'paul03', 'portLow':34880, 'portHigh':34887},
-                {'host':'paul04', 'portLow':34880, 'portHigh':34887},
-                {'host':'paul05', 'portLow':34880, 'portHigh':34887},
-                {'host':'paul06', 'portLow':34880, 'portHigh':34887},
-                {'host':'paul07', 'portLow':34880, 'portHigh':34887},
-                {'host':'paul08', 'portLow':34880, 'portHigh':34887},
-                {'host':'paul09', 'portLow':34880, 'portHigh':34887},
+                {'host':'pinky07', 'portLow':34880, 'portHigh':34887},
+                {'host':'pinky08', 'portLow':34880, 'portHigh':34887},
+                {'host':'pinky09', 'portLow':34880, 'portHigh':34887},
+                {'host':'pinky10', 'portLow':34880, 'portHigh':34887},
+                {'host':'pinky11', 'portLow':34880, 'portHigh':34887},
             ]
         self.machines = []
         for thing in hostsAndPorts:
