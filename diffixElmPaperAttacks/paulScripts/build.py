@@ -45,7 +45,7 @@ os.system('chmod 777 newHost.sh')
 
 # Script to start RPYC nodes
 with open('startRpyc.sh', 'w') as f:
-    f.write("./exall.sh 'source .venv/bin/activate'\n")
+    f.write("source .venv/bin/activate\n")
     for port in ports:
         f.write(f"nohup rpyc_classic.py --host 0.0.0.0 --port {port} &> {localStorage}/{port}.txt & \n")
     f.write("echo done\n")
