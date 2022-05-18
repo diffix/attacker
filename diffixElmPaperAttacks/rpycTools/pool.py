@@ -49,17 +49,16 @@ class pool():
 
     def getHostList(self):
         hosts = []
-        for thing in self.hostAndPorts:
+        for thing in self.machines:
             hosts.append(thing['host'])
         return hosts
 
     def getPortList(self):
         ''' This assumes that all hosts have the same port list '''
         ports = []
-        for thing in self.hostAndPorts:
-            for port in range(thing['portLow'],thing['portHigh']+1):
-                ports.append(port)
-            return ports
+        for thing in self.machines:
+            ports.append(thing['port'])
+        return ports
 
     def getFreeMachine(self):
         if len(self.machines) > 0:
