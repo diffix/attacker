@@ -15,6 +15,8 @@ login = 'francis'
 key = 'id_rsa_root'
 localStorage = '/local/francis'
 fileSystemMachine = 'contact'
+# Separate multiple directories with ':'
+pythonPath = "/home/francis/attacker/diffixElmPaperAttacks/outlierBucket"
 
 # Build basic execution script
 # echo 'paul01'
@@ -35,10 +37,10 @@ with open('newHost.sh', 'w') as f:
     f.write("./exall.sh 'python3 -m pip install rpyc'\n")
 os.system('chmod 777 newHost.sh')
 
-# Script to start RPYC nodes
+# Script to start RPYC nodes (note need to explicitly include the paths to)
 with open('startRpyc.sh', 'w') as f:
     f.write("source .venv/bin/activate\n")
-    f.write("export PYTHONPATH=/home/francis/attacker/diffixElmPaperAttacks/outlierBucket\n")
+    f.write(f"export PYTHONPATH={pythonPath}\n")
     for port in ports:
         f.write(f"nohup rpyc_classic.py --host 0.0.0.0 --port {port} &> {localStorage}/{port}.txt & \n")
     f.write("echo done\n")

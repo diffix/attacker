@@ -66,14 +66,15 @@ if __name__ == "__main__":
     atLeast=100
     #atLeast=10
     claimThresh = None
-    sds = [1.5,2.25,3.0]
-    outs = [[[1,2],[2,3]],
-            [[2,3],[3,4]],
-            [[3,4],[4,5]]
-           ]
+    countType = ['rows']
+    #countType = ['distinct']
+    #sds = [1.5,2.25,3.0]
+    sds = [1.5]
+    #outs = [[[1,2],[2,3]], [[2,3],[3,4]], [[3,4],[4,5]] ]
+    outs = [[[1,2],[2,3]]]
     abs = [[2,4],[2,16],[2,32]]
     numValues = [2,5,20]
-    params = ['numUnknownVals','SD','outParams','alphbet','round']
+    params = ['countType','numUnknownVals','SD','outParams','alphbet','round']
     results = ['CR','CI','C','claimThresh','PCR','PCI','PC','excess','numClaimHas']
     pathParts = Path(os.path.abspath(__file__)).parts
     dataDir = pathParts[-2]
@@ -94,8 +95,9 @@ if __name__ == "__main__":
     claimThresholds = [None,1]
     # Kick off the first two rounds.
     for round in range(len(claimThresholds)):
-        for numVals,sd,outParams,alphbet in [(v,w,x,y) for v in numValues for w in sds for x in outs for y in abs]:
+        for ct,numVals,sd,outParams,alphbet in [(z,v,w,x,y) for z in countType for v in numValues for w in sds for x in outs for y in abs]:
             params = {
+                'countType': ct,
                 'numUnknownVals': numVals,
                 'SD': sd,
                 'outParams': outParams,
