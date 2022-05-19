@@ -69,6 +69,7 @@ class betaAttack():
         ''' DQH step 3.1: For each AIDV, list all of the suppressed
             column values for which the AIDV is a bucket member.  '''
         aidvs = {}
+        trueDistinctCount = len(dvals.keys())
         for val,aidvl in dvals.items():
             for aidv in aidvl:
                 if aidv in aidvs:
@@ -110,7 +111,7 @@ class betaAttack():
             allDone = self.cleanOutVal(val,sortedAidvs,aidvs)
             if allDone:
                 break
-        bkt = {'aidvSet':[],'contributions':[]}
+        bkt = {'aidvSet':[],'contributions':[],'trueDistinctCount':trueDistinctCount}
         for aidv,cont in aidvCont.items():
             bkt['aidvSet'].append(aidv)
             bkt['contributions'].append(cont)
@@ -178,7 +179,10 @@ class betaAttack():
             bkt = buckets[bktIndex]
             # By convention, assume that last column contains the unknown value
             vals[-1] = bktIndex
-            trueCount = sum(bkt['contributions'])
+            if countType == 'distinct':
+                trueCount = bkt['trueDistinctCount']
+            else:
+                trueCount = sum(bkt['contributions'])
             #print(f'{numTries} {numClaimHas}',flush=True)
             noise,noisyCount = anon.getNoise(trueCount,aidvSet=bkt['aidvSet'],cols=cols,vals=vals,
                                             contributions=bkt['contributions'])
