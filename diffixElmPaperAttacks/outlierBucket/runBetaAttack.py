@@ -66,8 +66,8 @@ if __name__ == "__main__":
     atLeast=100
     #atLeast=10
     claimThresh = None
-    countType = ['rows']
-    #countType = ['distinct']
+    #countType = ['rows']
+    countType = ['distinct']
     #sds = [1.5,2.25,3.0]
     sds = [1.5]
     #outs = [[[1,2],[2,3]], [[2,3],[3,4]], [[3,4],[4,5]] ]

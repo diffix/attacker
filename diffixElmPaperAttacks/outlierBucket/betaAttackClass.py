@@ -33,8 +33,106 @@ class betaAttack():
                 maxDiff = diff
                 maxIndex = i
         return maxIndex,maxDiff
+
+    def modifyBktForDistinct(self,oldBkt):
+        '''
+            Coming in, `oldBkt` has a per-AIDV contribution in terms of rows.
+            We want to mimic what would happen if these rows were spread over
+            a set of distinct values such that each value has between 2-4
+            AIDVs. Then we run the distinct counting algorithm and compute
+            a resulting per-AIDV contribution. This is substituted back into
+            the bucket and returned.
+        '''
+        # First, assign distinct values (note these are associated with
+        # a single bucket). (Note it doesn't matter if different buckets
+        # have the same value.)
+        aidvs = {}
+        for aidv,cont in zip(oldBkt['aidvSet'], oldBkt['contributions']):
+            aidvs[aidv] = cont
+        dvals = {}
+        val = 1
+        while True:
+            val += 1
+            sampleAidvs = list(aidvs.keys())
+            numAidvs = min(random.randint(1,4),len(sampleAidvs))
+            dvals[val] = random.sample(sampleAidvs,k=numAidvs)
+            for aidv in dvals[val]:
+                aidvs[aidv] -= 1
+                if aidvs[aidv] == 0:
+                    del aidvs[aidv]
+            if len(aidvs) == 0:
+                break
+        return self.computeContributionsFromVals(dvals)
+
+    def computeContributionsFromVals(self,dvals):
+        # dvals is a dict of {val,[list of aidvs]}
+        ''' DQH step 3.1: For each AIDV, list all of the suppressed
+            column values for which the AIDV is a bucket member.  '''
+        aidvs = {}
+        for val,aidvl in dvals.items():
+            for aidv in aidvl:
+                if aidv in aidvs:
+                    aidvs[aidv].append(val)
+                else:
+                    aidvs[aidv] = [val]
+        ''' DQH step 3.2: Sort the AIDVs according to the number
+            of suppressed column values ascending.'''
+        sortedAidvVals = []
+        for aidv,vals in aidvs.items():
+            sortedAidvVals.append([aidv,len(vals)])
+        sortedAidvVals.sort(key=lambda tup: tup[1])
+        sortedAidvs = []
+        for i in range(len(sortedAidvVals)):
+            sortedAidvs.append(sortedAidvVals[i][0])
+        ''' DQH step 3.3: Repeatedly traverse the sorted list until
+            all suppressed column values are assigned to one
+            AIDV. For each encountered AIDV X, if there is
+            an associated suppressed column value that is not
+            assigned to any AIDV, then assign it to AIDV X. (If
+            there are no unassigned values, then AIDV X may
+            be removed from the sorted list.)'''
+        # We'll use sortedAidvs to count the vals assigned to each AIDV
+        aidvCont = {}
+        for i in range(len(sortedAidvs)):
+            aidvCont[sortedAidvs[i]] = 0
+        for i in range(10000000000000000):
+            index = i%len(sortedAidvs)
+            aidv = sortedAidvs[index]
+            #print(f"i {i} -> index {index} -> aidv {aidv}")
+            #print(sortedAidvs)
+            if aidv not in aidvs:
+                pp.pprint(sortedAidvs)
+                pp.pprint(aidvs)
+                pp.pprint(aidvCont)
+                print(f"index {index} for aidv {aidv}")
+            val = random.choice(aidvs[aidv])
+            aidvCont[aidv] += 1
+            allDone = self.cleanOutVal(val,sortedAidvs,aidvs)
+            if allDone:
+                break
+        bkt = {'aidvSet':[],'contributions':[]}
+        for aidv,cont in aidvCont.items():
+            bkt['aidvSet'].append(aidv)
+            bkt['contributions'].append(cont)
+        return bkt
+
+    def cleanOutVal(self,val,sortedAidvs,aidvs):
+        #print("--------------------------")
+        aidvList = sortedAidvs.copy()
+        for aidv in aidvList:
+            if val in aidvs[aidv]:
+                aidvs[aidv].remove(val)
+                if len(aidvs[aidv]) == 0:
+                    #pp.pprint(sortedAidvs)
+                    del aidvs[aidv]
+                    sortedAidvs.remove(aidv)
+                    #pp.pprint(sortedAidvs)
+                    if len(sortedAidvs) == 0:
+                        return True
+        return False
     
     def runOne(self,params,mcv,salt):
+        countType = params['countType']
         numUnknownVals = params['numUnknownVals']
         sd = params['SD']
         alphbet = params['alphbet']
@@ -50,6 +148,10 @@ class betaAttack():
         buckets = []
         maxContribution = 0
         victimBucket = 0
+        # Each bucket has a different set of AIDVs. Each AIDV has a different
+        # contribution amount. The one with the largest contribution amount
+        # is designated as the victim (we are trying to guess the bucket
+        # of the largest contributor)
         for bktIndex in range(numUnknownVals):
             mas = tools.stuff.makeAidvSets(baseIndividuals=aidvPerBucket)
             mas.makeBase()
@@ -64,6 +166,8 @@ class betaAttack():
                 'aidvSet': mas.aidvSet,
                 'contributions': contributions,
             }
+            if countType == 'distinct':
+                bkt = self.modifyBktForDistinct(bkt)
             buckets.append(bkt)
         # Compute the noisy count for each bucket
         noisyCounts = []
@@ -157,3 +261,24 @@ class betaAttack():
                    'PCR':cr,'PCI':ci,'PC':c,'claimThresh':claimThresh,'excess':excess,
                    'numClaimHas':numClaimHas}
         return result
+
+if __name__ == "__main__":
+    import pprint
+    pp = pprint.PrettyPrinter(indent=4)
+    ba = betaAttack()
+    aidvPerBucket = 5
+    alpha = 2
+    beta = 16
+    mas = tools.stuff.makeAidvSets(baseIndividuals=aidvPerBucket)
+    mas.makeBase()
+    contributions = []
+    for _ in range(aidvPerBucket):
+        cont = round(random.betavariate(alpha,beta) * 1000) + 1
+        contributions.append(cont)
+    bkt = {
+        'aidvSet': mas.aidvSet,
+        'contributions': contributions,
+    }
+    pp.pprint(bkt)
+    newBkt = ba.modifyBktForDistinct(bkt)
+    pp.pprint(newBkt)
