@@ -78,7 +78,10 @@ if __name__ == "__main__":
     results = ['CR','CI','C','claimThresh','PCR','PCI','PC','excess','numClaimHas']
     pathParts = Path(os.path.abspath(__file__)).parts
     dataDir = pathParts[-2]
-    dataFile = 'betaData'
+    if countType[0] == 'distinct':
+        dataFile = 'distinctBetaData'
+    else:
+        dataFile = 'betaData'
     dh = tools.dataHandler.dataHandler(params,results,dataDir,dataFile,printToFile=False)
     print(f"data file at '{dh.dataFile}'")
     print(f"output print at '{dh.printFile}'")
